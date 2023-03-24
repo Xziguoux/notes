@@ -24,7 +24,7 @@
   "showBranchStatusBar": true,
   "setLastSaveToLastCommit": false,
   "submoduleRecurseCheckout": false,
-  "gitDir": "notes/.git",
+  "gitDir": ".git",
   "showFileMenu": true,
   "autoCommitMessage": "vault backup: {{date}}"
 }

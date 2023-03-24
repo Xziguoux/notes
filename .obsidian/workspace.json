@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/inbox/如何设计一个class.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/inbox/如何设计一个class.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/inbox/如何设计一个class.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/inbox/如何设计一个class.md"
+                "file": "README.md"
               }
             }
           },
@@ -180,20 +180,21 @@
   },
   "active": "3ab9b5094e22728b",
   "lastOpenFiles": [
-    "oom  处理.md",
+    "notes/README.md",
+    "notes/LICENSE",
+    "tfu_smoke.canvas",
+    "tfu smoke使用说明.md",
     "notes/inbox/如何设计一个class.md",
+    "oom  处理.md",
     "python 并行.md",
     "Day Planners/Day Planner-20230320.md",
-    "notes/README.md",
     "notes/inbox",
     "2023-03-20.md",
-    "notes/LICENSE",
     "notes",
     "OPT-CPP.md",
     "问题分析.md",
     "2023-03-21.md",
     "func.md",
-    "Untitled.canvas",
     "booknote",
     "confg/template",
     "confg"
