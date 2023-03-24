@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "f4adc67115796e8e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac255fd351bc92b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87fe916450f54c3f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ab9b5094e22728b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/inbox/如何设计一个class.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "421add5b97eee80e",
+    "type": "split",
+    "children": [
+      {
+        "id": "49fbbf279966d741",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af36c9a47ac91c98",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "10a3f7065a69260c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "94f3bbe7c7d6c143",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "febf0c16a66680f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "e38f5146d57987a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ead011864996696",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/inbox/如何设计一个class.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d2cc420f80cb6322",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/inbox/如何设计一个class.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e9f1bfa802923c61",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3aeb8e057a5ea0f5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/inbox/如何设计一个class.md"
+              }
+            }
+          },
+          {
+            "id": "2d20dd878a217e93",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "f5ab3836ce0e3854",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64d76bfdfdbbc293",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "3ab9b5094e22728b",
+  "lastOpenFiles": [
+    "oom  处理.md",
+    "notes/inbox/如何设计一个class.md",
+    "python 并行.md",
+    "Day Planners/Day Planner-20230320.md",
+    "notes/README.md",
+    "notes/inbox",
+    "2023-03-20.md",
+    "notes/LICENSE",
+    "notes",
+    "OPT-CPP.md",
+    "问题分析.md",
+    "2023-03-21.md",
+    "func.md",
+    "Untitled.canvas",
+    "booknote",
+    "confg/template",
+    "confg"
+  ]
+}
