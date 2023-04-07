@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "11cb7959f6f25794",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "oom  处理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "febf0c16a66680f6",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inbox/如何设计一个class.md",
+                "file": "oom  处理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "inbox/如何设计一个class.md",
+                "file": "oom  处理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "inbox/如何设计一个class.md"
+                "file": "oom  处理.md"
               }
             }
           },
@@ -170,10 +182,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fa5ffc400b755f12",
+  "active": "af36c9a47ac91c98",
   "lastOpenFiles": [
-    "oom  处理.md",
+    "Untitled.md",
     "inbox/如何设计一个class.md",
+    "oom  处理.md",
     "2023-03-20.md",
     "2023-03-21.md",
     "2023-03-27.md",
