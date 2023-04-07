@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "inbox/如何设计一个class.md",
+                "file": "python 并行.md",
                 "mode": "source",
                 "source": true
               }
             }
-          },
-          {
-            "id": "11cb7959f6f25794",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "oom  处理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "oom  处理.md",
+                "file": "python 并行.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "oom  处理.md",
+                "file": "python 并行.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "oom  处理.md"
+                "file": "python 并行.md"
               }
             }
           },
@@ -184,9 +171,10 @@
   },
   "active": "af36c9a47ac91c98",
   "lastOpenFiles": [
-    "Untitled.md",
     "inbox/如何设计一个class.md",
+    "OPT-CPP.md",
     "oom  处理.md",
+    "Untitled.md",
     "2023-03-20.md",
     "2023-03-21.md",
     "2023-03-27.md",
@@ -205,7 +193,6 @@
     "Day Planners/Day Planner-20230320.md",
     "notes/inbox",
     "notes",
-    "OPT-CPP.md",
     "问题分析.md",
     "func.md",
     "booknote",
