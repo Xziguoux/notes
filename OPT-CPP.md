@@ -880,3 +880,73 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^9lzj9k6gkzk
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T03:36:08.917Z","updated":"2023-04-12T03:36:08.917Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":120523,"end":120614},{"type":"TextQuoteSelector","exact":"Pointers and references are equally efficient because they are in fact doing the same thing","prefix":"nces Pointers versus references ","suffix":". Example:  // Example 7.12 void"}]}]}
+>```
+>%%
+>*%%PREFIX%%nces Pointers versus references%%HIGHLIGHT%% ==Pointers and references are equally efficient because they are in fact doing the same thing== %%POSTFIX%%. Example:  // Example 7.12 void*
+>%%LINK%%[[#^6rv60mm5nps|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^6rv60mm5nps
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T03:44:23.342Z","updated":"2023-04-12T03:44:23.342Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":121408,"end":121467},{"type":"TextQuoteSelector","exact":"The advantages of using references rather than pointers are","prefix":"etic operations with pointers.  ","suffix":":  • The syntax is simpler when "}]}]}
+>```
+>%%
+>*%%PREFIX%%etic operations with pointers.%%HIGHLIGHT%% ==The advantages of using references rather than pointers are== %%POSTFIX%%:  • The syntax is simpler when*
+>%%LINK%%[[#^pntnbwlr0n9|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^pntnbwlr0n9
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T03:45:33.016Z","updated":"2023-04-12T03:45:33.016Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":121829,"end":121898},{"type":"TextQuoteSelector","exact":"References are useful for copy constructors and overloaded operators.","prefix":"type-casted to a wrong type.  • ","suffix":"  • Function parameters that are"}]}]}
+>```
+>%%
+>*%%PREFIX%%type-casted to a wrong type.  •%%HIGHLIGHT%% ==References are useful for copy constructors and overloaded operators.== %%POSTFIX%%• Function parameters that are*
+>%%LINK%%[[#^i9a9ktfu8d|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^i9a9ktfu8d
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T03:47:52.458Z","updated":"2023-04-12T03:47:52.458Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":122257,"end":122534},{"type":"TextQuoteSelector","exact":"All non-static variables and objects declared inside a function are stored on the stack and are in fact addressed relative to the stack pointer. Likewise, all non-static variables and objects declared in a class are accessed through the implicit pointer known in C++ as 'this'.","prefix":"icroprocessors are constructed. ","suffix":" We can therefore conclude that "}]}]}
+>```
+>%%
+>*%%PREFIX%%icroprocessors are constructed.%%HIGHLIGHT%% ==All non-static variables and objects declared inside a function are stored on the stack and are in fact addressed relative to the stack pointer. Likewise, all non-static variables and objects declared in a class are accessed through the implicit pointer known in C++ as 'this'.== %%POSTFIX%%We can therefore conclude that*
+>%%LINK%%[[#^8uqawksk5wj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^8uqawksk5wj
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T03:54:11.677Z","updated":"2023-04-12T03:54:11.677Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":122784,"end":122849},{"type":"TextQuoteSelector","exact":"However, there are disadvantages of using pointers and references","prefix":"ent, and that's what they are.  ","suffix":". Most importantly, it requires "}]}]}
+>```
+>%%
+>*%%PREFIX%%ent, and that's what they are.%%HIGHLIGHT%% ==However, there are disadvantages of using pointers and references== %%POSTFIX%%. Most importantly, it requires*
+>%%LINK%%[[#^5q6b39ftkcl|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^5q6b39ftkcl
