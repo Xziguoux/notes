@@ -838,3 +838,45 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^l7uroqmxru
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:22:47.142Z","updated":"2023-04-12T01:22:47.142Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":119090,"end":119166},{"type":"TextQuoteSelector","exact":"The bitwise operators are single instructions that take only one clock cycle","prefix":" Boolean operators (&& and ||). ","suffix":". The OR operator (|) works  35 "}]}]}
+>```
+>%%
+>*%%PREFIX%%Boolean operators (&& and ||).%%HIGHLIGHT%% ==The bitwise operators are single instructions that take only one clock cycle== %%POSTFIX%%. The OR operator (|) works  35*
+>%%LINK%%[[#^bqtr3vfjo1n|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^bqtr3vfjo1n
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:26:22.454Z","updated":"2023-04-12T01:26:22.454Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":119650,"end":119863},{"type":"TextQuoteSelector","exact":"You cannot replace a && b with a & b if b is an expression that should not be evaluated if a is false. Likewise, you cannot replace a || b with a | b if b is an expression that should not be evaluated if a is true","prefix":".10b char a = 0, b; b = a ^ 1;  ","suffix":".  The trick of using bitwise op"}]}]}
+>```
+>%%
+>*%%PREFIX%%.10b char a = 0, b; b = a ^ 1;%%HIGHLIGHT%% ==You cannot replace a && b with a & b if b is an expression that should not be evaluated if a is false. Likewise, you cannot replace a || b with a | b if b is an expression that should not be evaluated if a is true== %%POSTFIX%%.  The trick of using bitwise op*
+>%%LINK%%[[#^plg4zwhrysd|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^plg4zwhrysd
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:28:21.799Z","updated":"2023-04-12T01:28:21.799Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":120227,"end":120465},{"type":"TextQuoteSelector","exact":"An integer may be used as a Boolean vector. For example, if a and b are 32-bit integers, then the expression y = a & b; will make 32 AND-operations in just one clock cycle. The operators &, |, ^, ~ are useful for Boolean vector operations","prefix":"ions. Boolean vector operations ","suffix":".  7.6 Pointers and references P"}]}]}
+>```
+>%%
+>*%%PREFIX%%ions. Boolean vector operations%%HIGHLIGHT%% ==An integer may be used as a Boolean vector. For example, if a and b are 32-bit integers, then the expression y = a & b; will make 32 AND-operations in just one clock cycle. The operators &, |, ^, ~ are useful for Boolean vector operations== %%POSTFIX%%.  7.6 Pointers and references P*
+>%%LINK%%[[#^9lzj9k6gkzk|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^9lzj9k6gkzk
