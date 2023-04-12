@@ -950,3 +950,17 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^5q6b39ftkcl
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T03:56:01.724Z","updated":"2023-04-12T03:56:01.724Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":123007,"end":123144},{"type":"TextQuoteSelector","exact":"f there are not enough registers then the pointer has to be loaded from memory each time it is used and this will make the program slower","prefix":"ce, especially in 32-bit mode. I","suffix":". Another disadvantage is that t"}]}]}
+>```
+>%%
+>*%%PREFIX%%ce, especially in 32-bit mode. I%%HIGHLIGHT%% ==f there are not enough registers then the pointer has to be loaded from memory each time it is used and this will make the program slower== %%POSTFIX%%. Another disadvantage is that t*
+>%%LINK%%[[#^v4nr9brfk8r|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^v4nr9brfk8r
