@@ -614,3 +614,227 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^r7wc90yf9nq
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:52:34.310Z","updated":"2023-04-12T00:52:34.310Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":111651,"end":111785},{"type":"TextQuoteSelector","exact":"A newer method of doing floating point operations involves vector registers (XMM, YMM, or ZMM) which can be used for multiple purposes","prefix":" double precision is used.   32 ","suffix":". Floating point operations are "}]}]}
+>```
+>%%
+>*%%PREFIX%%double precision is used.   32%%HIGHLIGHT%% ==A newer method of doing floating point operations involves vector registers (XMM, YMM, or ZMM) which can be used for multiple purposes== %%POSTFIX%%. Floating point operations are*
+>%%LINK%%[[#^mscwn2djplc|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^mscwn2djplc
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:55:35.948Z","updated":"2023-04-12T00:55:35.948Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":112177,"end":112194},{"type":"TextQuoteSelector","exact":"Disadvantages are","prefix":"tor registers (see page 115).   ","suffix":":  • Long double precision is no"}]}]}
+>```
+>%%
+>*%%PREFIX%%tor registers (see page 115).%%HIGHLIGHT%% ==Disadvantages are== %%POSTFIX%%:  • Long double precision is no*
+>%%LINK%%[[#^947lzen821q|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^947lzen821q
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:55:43.708Z","updated":"2023-04-12T00:55:43.708Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":111943,"end":111992},{"type":"TextQuoteSelector","exact":"The advantages of using the vector registers are:","prefix":"same precision as the operands. ","suffix":"  • It is easy to make floating "}]}]}
+>```
+>%%
+>*%%PREFIX%%same precision as the operands.%%HIGHLIGHT%% ==The advantages of using the vector registers are:== %%POSTFIX%%• It is easy to make floating*
+>%%LINK%%[[#^ut023r7p1nq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ut023r7p1nq
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:01:45.569Z","updated":"2023-04-12T01:01:45.569Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":113152,"end":113280},{"type":"TextQuoteSelector","exact":"In most cases, double precision calculations take no more time than single precision as long as they are not joined into vectors","prefix":" optimal for each calculation.  ","suffix":". Single precision division, squ"}]}]}
+>```
+>%%
+>*%%PREFIX%%optimal for each calculation.%%HIGHLIGHT%% ==In most cases, double precision calculations take no more time than single precision as long as they are not joined into vectors== %%POSTFIX%%. Single precision division, squ*
+>%%LINK%%[[#^g3fvd8l3ng7|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^g3fvd8l3ng7
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:02:28.489Z","updated":"2023-04-12T01:02:28.489Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":113588,"end":113693},{"type":"TextQuoteSelector","exact":"You may use double precision without worrying too much about the costs if it is good for the application.","prefix":"ector operations are not used.  ","suffix":" You may use single precision if"}]}]}
+>```
+>%%
+>*%%PREFIX%%ector operations are not used.%%HIGHLIGHT%% ==You may use double precision without worrying too much about the costs if it is good for the application.== %%POSTFIX%%You may use single precision if*
+>%%LINK%%[[#^gq6fe9d4svt|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^gq6fe9d4svt
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:04:04.948Z","updated":"2023-04-12T01:04:04.948Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":113997,"end":114157},{"type":"TextQuoteSelector","exact":"Floating point addition takes 2 - 6 clock cycles, depending on the microprocessor. Multiplication takes 3 - 8 clock cycles. Division takes 14 - 45 clock cycles.","prefix":"P16 instruction set extension.  ","suffix":" Floating point comparisons and "}]}]}
+>```
+>%%
+>*%%PREFIX%%P16 instruction set extension.%%HIGHLIGHT%% ==Floating point addition takes 2 - 6 clock cycles, depending on the microprocessor. Multiplication takes 3 - 8 clock cycles. Division takes 14 - 45 clock cycles.== %%POSTFIX%%Floating point comparisons and*
+>%%LINK%%[[#^ecn1gptoxa|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ecn1gptoxa
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:04:29.392Z","updated":"2023-04-12T01:04:29.392Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":114297,"end":114358},{"type":"TextQuoteSelector","exact":"Do not mix single and double precision in the same expression","prefix":"ing point registers are used.   ","suffix":". See page 153.  Avoid conversio"}]}]}
+>```
+>%%
+>*%%PREFIX%%ing point registers are used.%%HIGHLIGHT%% ==Do not mix single and double precision in the same expression== %%POSTFIX%%. See page 153.  Avoid conversio*
+>%%LINK%%[[#^mhf19yog5yb|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^mhf19yog5yb
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:04:40.432Z","updated":"2023-04-12T01:04:40.432Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":114375,"end":114439},{"type":"TextQuoteSelector","exact":"Avoid conversions between integers and floating point variables,","prefix":"same expression. See page 153.  ","suffix":" if possible. See page 153.  App"}]}]}
+>```
+>%%
+>*%%PREFIX%%same expression. See page 153.%%HIGHLIGHT%% ==Avoid conversions between integers and floating point variables,== %%POSTFIX%%if possible. See page 153.  App*
+>%%LINK%%[[#^4c39kpafo5x|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4c39kpafo5x
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:05:13.547Z","updated":"2023-04-12T01:05:13.547Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":114468,"end":114650},{"type":"TextQuoteSelector","exact":"Applications that generate floating point underflow in vector registers can benefit from setting the flush-to-zero mode rather than generating subnormal numbers in case of underflow:","prefix":"es, if possible. See page 153.  ","suffix":"  // Example 7.5. Set flush-to-z"}]}]}
+>```
+>%%
+>*%%PREFIX%%es, if possible. See page 153.%%HIGHLIGHT%% ==Applications that generate floating point underflow in vector registers can benefit from setting the flush-to-zero mode rather than generating subnormal numbers in case of underflow:== %%POSTFIX%%// Example 7.5. Set flush-to-z*
+>%%LINK%%[[#^154ctc3d7pp|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^154ctc3d7pp
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:05:28.819Z","updated":"2023-04-12T01:05:28.819Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":114770,"end":114883},{"type":"TextQuoteSelector","exact":"It is strongly recommended to set the flush-to-zero mode unless you have special reasons to use subnormal numbers","prefix":"O_MODE(_MM_FLUSH_ZERO_ON);  33  ","suffix":". You may, in addition, set the "}]}]}
+>```
+>%%
+>*%%PREFIX%%O_MODE(_MM_FLUSH_ZERO_ON);  33%%HIGHLIGHT%% ==It is strongly recommended to set the flush-to-zero mode unless you have special reasons to use subnormal numbers== %%POSTFIX%%. You may, in addition, set the*
+>%%LINK%%[[#^erwwm3ftbgk|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^erwwm3ftbgk
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:07:16.727Z","updated":"2023-04-12T01:07:16.727Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":115377,"end":115481},{"type":"TextQuoteSelector","exact":"Enums in header files should therefore have long and unique enumerator names or be put into a namespace.","prefix":" function having the same name. ","suffix":"  7.5 Booleans The order of Bool"}]}]}
+>```
+>%%
+>*%%PREFIX%%function having the same name.%%HIGHLIGHT%% ==Enums in header files should therefore have long and unique enumerator names or be put into a namespace.== %%POSTFIX%%7.5 Booleans The order of Bool*
+>%%LINK%%[[#^jgoie060z7|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^jgoie060z7
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:10:30.285Z","updated":"2023-04-12T01:10:30.285Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":116499,"end":116593},{"type":"TextQuoteSelector","exact":"If one operand is more predictable than the other, then put the most predictable operand first","prefix":"lanation of branch prediction.  ","suffix":".   If one operand is faster to "}]}]}
+>```
+>%%
+>*%%PREFIX%%lanation of branch prediction.%%HIGHLIGHT%% ==If one operand is more predictable than the other, then put the most predictable operand first== %%POSTFIX%%.   If one operand is faster to*
+>%%LINK%%[[#^zes2ln1z31d|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^zes2ln1z31d
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:10:43.077Z","updated":"2023-04-12T01:10:43.077Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":116597,"end":116707},{"type":"TextQuoteSelector","exact":"If one operand is faster to calculate than the other then put the operand that is calculated the fastest first","prefix":"st predictable operand first.   ","suffix":".  However, you must be careful "}]}]}
+>```
+>%%
+>*%%PREFIX%%st predictable operand first.%%HIGHLIGHT%% ==If one operand is faster to calculate than the other then put the operand that is calculated the fastest first== %%POSTFIX%%.  However, you must be careful*
+>%%LINK%%[[#^d96a4xghkdl|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^d96a4xghkdl
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:17:44.774Z","updated":"2023-04-12T01:17:44.774Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":117554,"end":117795},{"type":"TextQuoteSelector","exact":"Boolean variables are overdetermined in the sense that all operators that have Boolean variables as input check if the inputs have any other value than 0 or 1, but operators that have Booleans as output can produce no other value than 0 or 1","prefix":"ue 0 for false and 1 for true.  ","suffix":". This makes operations with Boo"}]}]}
+>```
+>%%
+>*%%PREFIX%%ue 0 for false and 1 for true.%%HIGHLIGHT%% ==Boolean variables are overdetermined in the sense that all operators that have Boolean variables as input check if the inputs have any other value than 0 or 1, but operators that have Booleans as output can produce no other value than 0 or 1== %%POSTFIX%%. This makes operations with Boo*
+>%%LINK%%[[#^mqu6x88empg|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^mqu6x88empg
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:17:55.304Z","updated":"2023-04-12T01:17:55.304Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":117797,"end":117880},{"type":"TextQuoteSelector","exact":"This makes operations with Boolean variables as input less efficient than necessary","prefix":"uce no other value than 0 or 1. ","suffix":". Take the example:  // Example "}]}]}
+>```
+>%%
+>*%%PREFIX%%uce no other value than 0 or 1.%%HIGHLIGHT%% ==This makes operations with Boolean variables as input less efficient than necessary== %%POSTFIX%%. Take the example:  // Example*
+>%%LINK%%[[#^iqv8ywml3q|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^iqv8ywml3q
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T01:20:20.072Z","updated":"2023-04-12T01:20:20.072Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":118385,"end":118521},{"type":"TextQuoteSelector","exact":"The Boolean operations can be made much more efficient if it is known with certainty that the operands have no other values than 0 and 1","prefix":"f mispredictions (see page 43). ","suffix":". The reason why the compiler do"}]}]}
+>```
+>%%
+>*%%PREFIX%%f mispredictions (see page 43).%%HIGHLIGHT%% ==The Boolean operations can be made much more efficient if it is known with certainty that the operands have no other values than 0 and 1== %%POSTFIX%%. The reason why the compiler do*
+>%%LINK%%[[#^l7uroqmxru|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^l7uroqmxru
