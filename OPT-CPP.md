@@ -432,3 +432,185 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^6160ygjxpvn
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:35:37.888Z","updated":"2023-04-12T00:35:37.888Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":105746,"end":105905},{"type":"TextQuoteSelector","exact":"In large arrays, it may be preferred to use the smallest integer size that is big enough for the specific purpose in order to make better use of the data cache","prefix":" variables, loop counters, etc. ","suffix":". Bit-fields of sizes other than"}]}]}
+>```
+>%%
+>*%%PREFIX%%variables, loop counters, etc.%%HIGHLIGHT%% ==In large arrays, it may be preferred to use the smallest integer size that is big enough for the specific purpose in order to make better use of the data cache== %%POSTFIX%%. Bit-fields of sizes other than*
+>%%LINK%%[[#^iseyq4i0ny8|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^iseyq4i0ny8
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:37:28.207Z","updated":"2023-04-12T00:37:28.207Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":106083,"end":106174},{"type":"TextQuoteSelector","exact":"The unsigned integer type size_t is 32 bits in 32-bit systems and 64 bits in 64-bit systems","prefix":"an make use of the extra bits.  ","suffix":". It is intended for array sizes"}]}]}
+>```
+>%%
+>*%%PREFIX%%an make use of the extra bits.%%HIGHLIGHT%% ==The unsigned integer type size_t is 32 bits in 32-bit systems and 64 bits in 64-bit systems== %%POSTFIX%%. It is intended for array sizes*
+>%%LINK%%[[#^h8h9ith4n3w|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^h8h9ith4n3w
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:38:01.605Z","updated":"2023-04-12T00:38:01.605Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":106422,"end":106469},{"type":"TextQuoteSelector","exact":"if intermediate calculations can cause overflow","prefix":"ific purpose, you must consider ","suffix":". For example, in the expression"}]}]}
+>```
+>%%
+>*%%PREFIX%%ific purpose, you must consider%%HIGHLIGHT%% ==if intermediate calculations can cause overflow== %%POSTFIX%%. For example, in the expression*
+>%%LINK%%[[#^22xjbgr1j6x|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^22xjbgr1j6x
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:38:13.449Z","updated":"2023-04-12T00:38:13.449Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":106491,"end":106609},{"type":"TextQuoteSelector","exact":"expression a = (b*c)/d, it can happen that (b*c) overflows, even if a, b, c and d would all be below the maximum value","prefix":"e overflow. For example, in the ","suffix":". There is no automatic check fo"}]}]}
+>```
+>%%
+>*%%PREFIX%%e overflow. For example, in the%%HIGHLIGHT%% ==expression a = (b*c)/d, it can happen that (b*c) overflows, even if a, b, c and d would all be below the maximum value== %%POSTFIX%%. There is no automatic check fo*
+>%%LINK%%[[#^zqizv1fqqgf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^zqizv1fqqgf
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:39:39.892Z","updated":"2023-04-12T00:39:39.892Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":106694,"end":106828},{"type":"TextQuoteSelector","exact":"In most cases, there is no difference in speed between using signed and unsigned integers. But there are a few cases where it matters:","prefix":"Signed versus unsigned integers ","suffix":"  • Division by a constant: Unsi"}]}]}
+>```
+>%%
+>*%%PREFIX%%Signed versus unsigned integers%%HIGHLIGHT%% ==In most cases, there is no difference in speed between using signed and unsigned integers. But there are a few cases where it matters:== %%POSTFIX%%• Division by a constant: Unsi*
+>%%LINK%%[[#^s1w0864oju|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^s1w0864oju
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:39:51.516Z","updated":"2023-04-12T00:39:51.516Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":106832,"end":106854},{"type":"TextQuoteSelector","exact":"Division by a constant","prefix":" few cases where it matters:  • ","suffix":": Unsigned is faster than signed"}]}]}
+>```
+>%%
+>*%%PREFIX%%few cases where it matters:  •%%HIGHLIGHT%% ==Division by a constant== %%POSTFIX%%: Unsigned is faster than signed*
+>%%LINK%%[[#^ef5vr0yon5v|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ef5vr0yon5v
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:40:17.318Z","updated":"2023-04-12T00:40:17.318Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":106995,"end":107101},{"type":"TextQuoteSelector","exact":"Conversion to floating point is faster with signed than with unsigned integers for most instruction sets. ","prefix":" to the modulo operator %.    • ","suffix":" • Overflow behaves differently "}]}]}
+>```
+>%%
+>*%%PREFIX%%to the modulo operator %.    •%%HIGHLIGHT%% ==Conversion to floating point is faster with signed than with unsigned integers for most instruction sets.== %%POSTFIX%%• Overflow behaves differently*
+>%%LINK%%[[#^82gf34z8pca|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^82gf34z8pca
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:41:26.670Z","updated":"2023-04-12T00:41:26.670Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":107167,"end":107292},{"type":"TextQuoteSelector","exact":"An overflow of an unsigned variable produces a low positive result. An overflow of a signed variable is officially undefined.","prefix":" signed and unsigned variables. ","suffix":" The normal behavior is wrap-aro"}]}]}
+>```
+>%%
+>*%%PREFIX%%signed and unsigned variables.%%HIGHLIGHT%% ==An overflow of an unsigned variable produces a low positive result. An overflow of a signed variable is officially undefined.== %%POSTFIX%%The normal behavior is wrap-aro*
+>%%LINK%%[[#^fiyypb0xdr|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^fiyypb0xdr
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:44:52.362Z","updated":"2023-04-12T00:44:52.362Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":108029,"end":108092},{"type":"TextQuoteSelector","exact":"this works only if it is certain that a will never be negative.","prefix":"the division faster. Of course, ","suffix":" The last line is implicitly con"}]}]}
+>```
+>%%
+>*%%PREFIX%%the division faster. Of course,%%HIGHLIGHT%% ==this works only if it is certain that a will never be negative.== %%POSTFIX%%The last line is implicitly con*
+>%%LINK%%[[#^u3b97lj1y0i|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^u3b97lj1y0i
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:45:43.591Z","updated":"2023-04-12T00:45:43.591Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":108631,"end":108675},{"type":"TextQuoteSelector","exact":"Multiplication and division take longer time","prefix":"cycle on most microprocessors.  ","suffix":". Integer multiplication takes 1"}]}]}
+>```
+>%%
+>*%%PREFIX%%cycle on most microprocessors.%%HIGHLIGHT%% ==Multiplication and division take longer time== %%POSTFIX%%. Integer multiplication takes 1*
+>%%LINK%%[[#^kkf8bvvfj7g|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kkf8bvvfj7g
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:46:31.374Z","updated":"2023-04-12T00:46:31.374Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":109466,"end":109520},{"type":"TextQuoteSelector","exact":"for (i=0; i<n; i++) is the same as for (i=0; i<n; ++i)","prefix":" simply identical. For example, ","suffix":". But when the result of the exp"}]}]}
+>```
+>%%
+>*%%PREFIX%%simply identical. For example,%%HIGHLIGHT%% ==for (i=0; i<n; i++) is the same as for (i=0; i<n; ++i)== %%POSTFIX%%. But when the result of the exp*
+>%%LINK%%[[#^com59qisorh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^com59qisorh
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:49:40.162Z","updated":"2023-04-12T00:49:40.162Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":109628,"end":109870},{"type":"TextQuoteSelector","exact":"x = array[i++] is more efficient than x = array[++i] because in the latter case, the calculation of the address of the array element has to wait for the new value of i which will delay the availability of x for approximately two clock cycles.","prefix":"nce in efficiency. For example, ","suffix":" Obviously, the initial value of"}]}]}
+>```
+>%%
+>*%%PREFIX%%nce in efficiency. For example,%%HIGHLIGHT%% ==x = array[i++] is more efficient than x = array[++i] because in the latter case, the calculation of the address of the array element has to wait for the new value of i which will delay the availability of x for approximately two clock cycles.== %%POSTFIX%%Obviously, the initial value of*
+>%%LINK%%[[#^419o3xuy8p2|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^419o3xuy8p2
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-12T00:51:05.440Z","updated":"2023-04-12T00:51:05.440Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":110709,"end":110909},{"type":"TextQuoteSelector","exact":"The original method of doing floating point operations involves eight floating point registers organized as a register stack, called x87 registers. These registers have long double precision (80 bits)","prefix":" advantages and disadvantages.  ","suffix":". The advantages of using the re"}]}]}
+>```
+>%%
+>*%%PREFIX%%advantages and disadvantages.%%HIGHLIGHT%% ==The original method of doing floating point operations involves eight floating point registers organized as a register stack, called x87 registers. These registers have long double precision (80 bits)== %%POSTFIX%%. The advantages of using the re*
+>%%LINK%%[[#^r7wc90yf9nq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^r7wc90yf9nq
