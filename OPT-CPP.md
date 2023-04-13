@@ -1216,3 +1216,73 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^nxhnh9b1l1q
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:43:47.929Z","updated":"2023-04-13T01:43:47.929Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":138902,"end":138974},{"type":"TextQuoteSelector","exact":"There are a number of dangers to be aware of when type-casting pointers:","prefix":" is faster than x = -abs(x);.   ","suffix":"  • The trick violates the stric"}]}]}
+>```
+>%%
+>*%%PREFIX%%is faster than x = -abs(x);.%%HIGHLIGHT%% ==There are a number of dangers to be aware of when type-casting pointers:== %%POSTFIX%%• The trick violates the stric*
+>%%LINK%%[[#^djioty9hiop|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^djioty9hiop
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:46:39.457Z","updated":"2023-04-13T01:46:39.457Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":139992,"end":140075},{"type":"TextQuoteSelector","exact":"The const_cast operator is used for relieving the const restriction from a pointer.","prefix":" AMD and VIA CPUs\"). Const cast ","suffix":" It has some syntax checking and"}]}]}
+>```
+>%%
+>*%%PREFIX%%AMD and VIA CPUs"). Const cast%%HIGHLIGHT%% ==The const_cast operator is used for relieving the const restriction from a pointer.== %%POSTFIX%%It has some syntax checking and*
+>%%LINK%%[[#^zbbdr9uebej|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^zbbdr9uebej
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:47:19.488Z","updated":"2023-04-13T01:47:19.488Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":140650,"end":140747},{"type":"TextQuoteSelector","exact":"This is a useful way of making sure that one function can modify x, while other functions cannot.","prefix":"d does not take any extra time. ","suffix":" Static cast The static_cast ope"}]}]}
+>```
+>%%
+>*%%PREFIX%%d does not take any extra time.%%HIGHLIGHT%% ==This is a useful way of making sure that one function can modify x, while other functions cannot.== %%POSTFIX%%Static cast The static_cast ope*
+>%%LINK%%[[#^am403slwm17|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^am403slwm17
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:48:41.608Z","updated":"2023-04-13T01:48:41.608Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":140895,"end":140956},{"type":"TextQuoteSelector","exact":"The reinterpret_cast operator is used for pointer conversions","prefix":" float to int. Reinterpret cast ","suffix":". It does the same as C-style ty"}]}]}
+>```
+>%%
+>*%%PREFIX%%float to int. Reinterpret cast%%HIGHLIGHT%% ==The reinterpret_cast operator is used for pointer conversions== %%POSTFIX%%. It does the same as C-style ty*
+>%%LINK%%[[#^h3gezjjxcwd|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^h3gezjjxcwd
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:49:01.479Z","updated":"2023-04-13T01:49:01.479Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":141081,"end":141182},{"type":"TextQuoteSelector","exact":"The dynamic_cast operator is used for converting a pointer to one class to a pointer to another class","prefix":"ce any extra code. Dynamic cast ","suffix":". It makes a runtime check that "}]}]}
+>```
+>%%
+>*%%PREFIX%%ce any extra code. Dynamic cast%%HIGHLIGHT%% ==The dynamic_cast operator is used for converting a pointer to one class to a pointer to another class== %%POSTFIX%%. It makes a runtime check that*
+>%%LINK%%[[#^oabw5nsn1kd|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^oabw5nsn1kd
