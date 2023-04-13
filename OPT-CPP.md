@@ -1160,3 +1160,59 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^4o6hzn9co42
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:31:37.505Z","updated":"2023-04-13T01:31:37.505Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":136246,"end":136362},{"type":"TextQuoteSelector","exact":"Integer to float conversions can sometimes be avoided by replacing an integer variable by a float variable. Example:","prefix":"/ Faster, but risk of overflow  ","suffix":"  // Example 7.26a float a[100];"}]}]}
+>```
+>%%
+>*%%PREFIX%%/ Faster, but risk of overflow%%HIGHLIGHT%% ==Integer to float conversions can sometimes be avoided by replacing an integer variable by a float variable. Example:== %%POSTFIX%%// Example 7.26a float a[100];*
+>%%LINK%%[[#^65b6zmwrokm|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^65b6zmwrokm
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:32:20.625Z","updated":"2023-04-13T01:32:20.625Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":136693,"end":136821},{"type":"TextQuoteSelector","exact":"Conversion of a floating point number to an integer takes a very long time unless the SSE2 or later instruction set is enabled. ","prefix":"i2; Float to integer conversion ","suffix":"Typically, the conversion takes "}]}]}
+>```
+>%%
+>*%%PREFIX%%i2; Float to integer conversion%%HIGHLIGHT%% ==Conversion of a floating point number to an integer takes a very long time unless the SSE2 or later instruction set is enabled.== %%POSTFIX%%Typically, the conversion takes*
+>%%LINK%%[[#^hh7xfwp2hhn|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^hh7xfwp2hhn
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:32:40.410Z","updated":"2023-04-13T01:32:40.410Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":136821,"end":137017},{"type":"TextQuoteSelector","exact":"Typically, the conversion takes 50 - 100 clock cycles. The reason is that the C/C++ standard specifies truncation so the floating point rounding mode has to be changed to truncation and back again","prefix":"ter instruction set is enabled. ","suffix":".   If there are floating point-"}]}]}
+>```
+>%%
+>*%%PREFIX%%ter instruction set is enabled.%%HIGHLIGHT%% ==Typically, the conversion takes 50 - 100 clock cycles. The reason is that the C/C++ standard specifies truncation so the floating point rounding mode has to be changed to truncation and back again== %%POSTFIX%%.   If there are floating point-*
+>%%LINK%%[[#^rp1gptyelrk|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^rp1gptyelrk
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:35:29.553Z","updated":"2023-04-13T01:35:29.553Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":137021,"end":137148},{"type":"TextQuoteSelector","exact":"If there are floating point-to-integer conversions in the critical part of a code then it is important to do something about it","prefix":"to truncation and back again.   ","suffix":". Possible solutions are:  Avoid"}]}]}
+>```
+>%%
+>*%%PREFIX%%to truncation and back again.%%HIGHLIGHT%% ==If there are floating point-to-integer conversions in the critical part of a code then it is important to do something about it== %%POSTFIX%%. Possible solutions are:  Avoid*
+>%%LINK%%[[#^nxhnh9b1l1q|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^nxhnh9b1l1q
