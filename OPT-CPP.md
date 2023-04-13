@@ -1090,3 +1090,73 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^vbkl1p29r2f
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:07:11.554Z","updated":"2023-04-13T01:07:11.554Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":134111,"end":134238},{"type":"TextQuoteSelector","exact":"Conversions between signed and unsigned integers simply makes the compiler interpret the bits of the integer in a different way","prefix":"f ((unsigned int)i < 10) { ...  ","suffix":". There is no checking for overf"}]}]}
+>```
+>%%
+>*%%PREFIX%%f ((unsigned int)i < 10) { ...%%HIGHLIGHT%% ==Conversions between signed and unsigned integers simply makes the compiler interpret the bits of the integer in a different way== %%POSTFIX%%. There is no checking for overf*
+>%%LINK%%[[#^7wyyb72pb4f|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^7wyyb72pb4f
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:09:56.238Z","updated":"2023-04-13T01:09:56.238Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":135215,"end":135331},{"type":"TextQuoteSelector","exact":"Conversions between float, double and long double take no extra time when the floating point register stack is used.","prefix":"ting point precision conversion ","suffix":" It takes between 2 and 15 clock"}]}]}
+>```
+>%%
+>*%%PREFIX%%ting point precision conversion%%HIGHLIGHT%% ==Conversions between float, double and long double take no extra time when the floating point register stack is used.== %%POSTFIX%%It takes between 2 and 15 clock*
+>%%LINK%%[[#^ua8cgdx93rs|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ua8cgdx93rs
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:10:17.356Z","updated":"2023-04-13T01:10:17.356Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":135332,"end":135431},{"type":"TextQuoteSelector","exact":"It takes between 2 and 15 clock cycles (depending on the processor) when the XMM registers are used","prefix":"g point register stack is used. ","suffix":". See page 31 for an explanation"}]}]}
+>```
+>%%
+>*%%PREFIX%%g point register stack is used.%%HIGHLIGHT%% ==It takes between 2 and 15 clock cycles (depending on the processor) when the XMM registers are used== %%POSTFIX%%. See page 31 for an explanation*
+>%%LINK%%[[#^odwtpxv3tmb|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^odwtpxv3tmb
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:10:59.253Z","updated":"2023-04-13T01:10:59.253Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":135742,"end":135819},{"type":"TextQuoteSelector","exact":"Conversion of a signed integer to a float or double takes 4 - 16 clock cycles","prefix":"on. Integer to float conversion ","suffix":", depending on the processor and"}]}]}
+>```
+>%%
+>*%%PREFIX%%on. Integer to float conversion%%HIGHLIGHT%% ==Conversion of a signed integer to a float or double takes 4 - 16 clock cycles== %%POSTFIX%%, depending on the processor and*
+>%%LINK%%[[#^kfw0951tnms|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kfw0951tnms
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T01:11:35.710Z","updated":"2023-04-13T01:11:35.710Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":135880,"end":136140},{"type":"TextQuoteSelector","exact":"Conversion of unsigned integers takes longer time than signed integers unless the AVX512 instruction set is enabled (AVX512DQ for 64 bit unsigned integers). It is faster to first convert the unsigned integer to a signed integer if there is no risk of overflow:","prefix":"and the type of registers used. ","suffix":"  // Example 7.25 unsigned int u"}]}]}
+>```
+>%%
+>*%%PREFIX%%and the type of registers used.%%HIGHLIGHT%% ==Conversion of unsigned integers takes longer time than signed integers unless the AVX512 instruction set is enabled (AVX512DQ for 64 bit unsigned integers). It is faster to first convert the unsigned integer to a signed integer if there is no risk of overflow:== %%POSTFIX%%// Example 7.25 unsigned int u*
+>%%LINK%%[[#^4o6hzn9co42|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4o6hzn9co42
