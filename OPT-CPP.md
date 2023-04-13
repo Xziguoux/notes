@@ -964,3 +964,129 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^v4nr9brfk8r
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T00:22:53.725Z","updated":"2023-04-13T00:22:53.725Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":123452,"end":123555},{"type":"TextQuoteSelector","exact":"When an integer is added to a pointer then its value is multiplied by the size of the object pointed to","prefix":" integer arithmetic operations. ","suffix":". For example:  // Example 7.13 "}]}]}
+>```
+>%%
+>*%%PREFIX%%integer arithmetic operations.%%HIGHLIGHT%% ==When an integer is added to a pointer then its value is multiplied by the size of the object pointed to== %%POSTFIX%%. For example:  // Example 7.13*
+>%%LINK%%[[#^bd6qp6sm42|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^bd6qp6sm42
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T00:28:33.551Z","updated":"2023-04-13T00:28:33.551Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":124561,"end":124658},{"type":"TextQuoteSelector","exact":"Therefore, it is recommended to calculate the value of a pointer well before the pointer is used.","prefix":"he pointer has been calculated. ","suffix":" For example, x = *(p++) is more"}]}]}
+>```
+>%%
+>*%%PREFIX%%he pointer has been calculated.%%HIGHLIGHT%% ==Therefore, it is recommended to calculate the value of a pointer well before the pointer is used.== %%POSTFIX%%For example, x = *(p++) is more*
+>%%LINK%%[[#^r28v41bg3vs|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^r28v41bg3vs
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T00:29:28.171Z","updated":"2023-04-13T00:29:28.171Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":124999,"end":125151},{"type":"TextQuoteSelector","exact":"Calling a function through a function pointer may take a few clock cycles more than calling the function directly if the target address can be predicted","prefix":"erators.  7.7 Function pointers ","suffix":". The target address is predicte"}]}]}
+>```
+>%%
+>*%%PREFIX%%erators.  7.7 Function pointers%%HIGHLIGHT%% ==Calling a function through a function pointer may take a few clock cycles more than calling the function directly if the target address can be predicted== %%POSTFIX%%. The target address is predicte*
+>%%LINK%%[[#^lhr911rewvl|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^lhr911rewvl
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T00:31:28.265Z","updated":"2023-04-13T00:31:28.265Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":125470,"end":125666},{"type":"TextQuoteSelector","exact":"In simple cases, a data member pointer simply stores the offset of a data member relative to the beginning of the object, and a member function pointer is simply the address of the member function","prefix":"ediction.   7.8 Member pointers ","suffix":". But there are special cases su"}]}]}
+>```
+>%%
+>*%%PREFIX%%ediction.   7.8 Member pointers%%HIGHLIGHT%% ==In simple cases, a data member pointer simply stores the offset of a data member relative to the beginning of the object, and a member function pointer is simply the address of the member function== %%POSTFIX%%. But there are special cases su*
+>%%LINK%%[[#^xgu9w3xtg3s|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^xgu9w3xtg3s
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T00:32:28.242Z","updated":"2023-04-13T00:32:28.242Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":126496,"end":126766},{"type":"TextQuoteSelector","exact":"Most C++ compilers have various options to control the way member pointers are implemented. Use the option that gives the simplest possible implementation if possible, and make sure you are using the same compiler option for all modules that use the same member pointer.","prefix":"ember pointers less efficient.  ","suffix":"  7.9 Smart pointers A smart poi"}]}]}
+>```
+>%%
+>*%%PREFIX%%ember pointers less efficient.%%HIGHLIGHT%% ==Most C++ compilers have various options to control the way member pointers are implemented. Use the option that gives the simplest possible implementation if possible, and make sure you are using the same compiler option for all modules that use the same member pointer.== %%POSTFIX%%7.9 Smart pointers A smart poi*
+>%%LINK%%[[#^0kp3cb3rouq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^0kp3cb3rouq
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T00:33:46.412Z","updated":"2023-04-13T00:33:46.412Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":127646,"end":127715},{"type":"TextQuoteSelector","exact":"There is no extra cost to accessing an object through a smart pointer","prefix":"e pointers to the same object.  ","suffix":". Accessing an object by *p or p"}]}]}
+>```
+>%%
+>*%%PREFIX%%e pointers to the same object.%%HIGHLIGHT%% ==There is no extra cost to accessing an object through a smart pointer== %%POSTFIX%%. Accessing an object by *p or p*
+>%%LINK%%[[#^g2gjvf0rg0f|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^g2gjvf0rg0f
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T00:34:12.322Z","updated":"2023-04-13T00:34:12.322Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":127822,"end":128007},{"type":"TextQuoteSelector","exact":"But there is an extra cost whenever a smart pointer is created, deleted, copied, or transferred from one function to another. These costs are higher for shared_ptr than for unique_ptr. ","prefix":"ple pointer or a smart pointer. ","suffix":" The best optimizing compilers ("}]}]}
+>```
+>%%
+>*%%PREFIX%%ple pointer or a smart pointer.%%HIGHLIGHT%% ==But there is an extra cost whenever a smart pointer is created, deleted, copied, or transferred from one function to another. These costs are higher for shared_ptr than for unique_ptr.== %%POSTFIX%%The best optimizing compilers (*
+>%%LINK%%[[#^4minveo7nct|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4minveo7nct
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T00:35:14.744Z","updated":"2023-04-13T00:35:14.744Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":128203,"end":128476},{"type":"TextQuoteSelector","exact":"Smart pointers can be useful in the situation where the logic structure of a program dictates that an object must be dynamically created by one function and later deleted by another function and these two functions are unrelated to each other (not member of the same class)","prefix":"t the calls to new and delete.  ","suffix":". If the same function or class "}]}]}
+>```
+>%%
+>*%%PREFIX%%t the calls to new and delete.%%HIGHLIGHT%% ==Smart pointers can be useful in the situation where the logic structure of a program dictates that an object must be dynamically created by one function and later deleted by another function and these two functions are unrelated to each other (not member of the same class)== %%POSTFIX%%. If the same function or class*
+>%%LINK%%[[#^sdpnzkts5b|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^sdpnzkts5b
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-13T00:37:10.367Z","updated":"2023-04-13T00:37:10.367Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":128599,"end":128750},{"type":"TextQuoteSelector","exact":"If a program uses many small dynamically allocated objects with each their smart pointer then you may consider if the cost of this solution is too high","prefix":"u do not need a smart pointer.  ","suffix":". It may be more efficient to po"}]}]}
+>```
+>%%
+>*%%PREFIX%%u do not need a smart pointer.%%HIGHLIGHT%% ==If a program uses many small dynamically allocated objects with each their smart pointer then you may consider if the cost of this solution is too high== %%POSTFIX%%. It may be more efficient to po*
+>%%LINK%%[[#^vbkl1p29r2f|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^vbkl1p29r2f
