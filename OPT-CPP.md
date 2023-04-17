@@ -1735,3 +1735,143 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^x8o3unxddn
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:44:58.336Z","updated":"2023-04-17T01:44:58.336Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":157860,"end":157933},{"type":"TextQuoteSelector","exact":"The keyword __fastcall changes the function calling method in 32-bit mode","prefix":"stcall and vectorcall functions ","suffix":" so that the first two integer p"}]}]}
+>```
+>%%
+>*%%PREFIX%%stcall and vectorcall functions%%HIGHLIGHT%% ==The keyword __fastcall changes the function calling method in 32-bit mode== %%POSTFIX%%so that the first two integer p*
+>%%LINK%%[[#^f2xqzfsnqx|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^f2xqzfsnqx
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:46:34.301Z","updated":"2023-04-17T01:46:34.301Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":158320,"end":158423},{"type":"TextQuoteSelector","exact":"Therefore, make sure that the most critical integer parameter comes first when you are using __fastcall","prefix":"sferring additional parameters. ","suffix":". Function parameters are transf"}]}]}
+>```
+>%%
+>*%%PREFIX%%sferring additional parameters.%%HIGHLIGHT%% ==Therefore, make sure that the most critical integer parameter comes first when you are using __fastcall== %%POSTFIX%%. Function parameters are transf*
+>%%LINK%%[[#^hln004pqc3l|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^hln004pqc3l
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:46:58.271Z","updated":"2023-04-17T01:46:58.271Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":158807,"end":158893},{"type":"TextQuoteSelector","exact":"he __vectorcall method is currently supported by Microsoft, Intel, and Clang compilers","prefix":"dvantageous in 64 bit Windows. T","suffix":". Make functions local A functio"}]}]}
+>```
+>%%
+>*%%PREFIX%%dvantageous in 64 bit Windows. T%%HIGHLIGHT%% ==he __vectorcall method is currently supported by Microsoft, Intel, and Clang compilers== %%POSTFIX%%. Make functions local A functio*
+>%%LINK%%[[#^he074vw6nal|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^he074vw6nal
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:50:05.640Z","updated":"2023-04-17T01:50:05.640Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":158916,"end":159017},{"type":"TextQuoteSelector","exact":"A function that is used only within the same module (i.e. the current .cpp file) should be made local","prefix":"compilers. Make functions local ","suffix":". This makes it easier for the c"}]}]}
+>```
+>%%
+>*%%PREFIX%%compilers. Make functions local%%HIGHLIGHT%% ==A function that is used only within the same module (i.e. the current .cpp file) should be made local== %%POSTFIX%%. This makes it easier for the c*
+>%%LINK%%[[#^hbz66lebqmt|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^hbz66lebqmt
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:50:28.299Z","updated":"2023-04-17T01:50:28.299Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":159223,"end":159337},{"type":"TextQuoteSelector","exact":"his is the simplest method, but it does not work with class member functions, where static has a different meaning","prefix":"c to the function declaration. T","suffix":".    2. Put the function or clas"}]}]}
+>```
+>%%
+>*%%PREFIX%%c to the function declaration. T%%HIGHLIGHT%% ==his is the simplest method, but it does not work with class member functions, where static has a different meaning== %%POSTFIX%%.    2. Put the function or clas*
+>%%LINK%%[[#^bibui018msg|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^bibui018msg
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:50:44.158Z","updated":"2023-04-17T01:50:44.158Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":159119,"end":159165},{"type":"TextQuoteSelector","exact":"There are three ways to make a function local:","prefix":"optimize across function calls. ","suffix":"  1. Add the keyword static to t"}]}]}
+>```
+>%%
+>*%%PREFIX%%optimize across function calls.%%HIGHLIGHT%% ==There are three ways to make a function local:== %%POSTFIX%%1. Add the keyword static to t*
+>%%LINK%%[[#^awg5xmzu4w6|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^awg5xmzu4w6
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:53:26.900Z","updated":"2023-04-17T01:53:26.900Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":159877,"end":160007},{"type":"TextQuoteSelector","exact":"Parameter transfer is more efficient in 64-bit mode than in 32-bit mode, and more efficient in 64-bit Linux than in 64-bit Windows","prefix":" library files. Use 64-bit mode ","suffix":". In 64-bit Linux, the first six"}]}]}
+>```
+>%%
+>*%%PREFIX%%library files. Use 64-bit mode%%HIGHLIGHT%% ==Parameter transfer is more efficient in 64-bit mode than in 32-bit mode, and more efficient in 64-bit Linux than in 64-bit Windows== %%POSTFIX%%. In 64-bit Linux, the first six*
+>%%LINK%%[[#^9qk1osnk298|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^9qk1osnk298
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:53:47.470Z","updated":"2023-04-17T01:53:47.470Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":160009,"end":160178},{"type":"TextQuoteSelector","exact":"In 64-bit Linux, the first six integer parameters and the first eight floating point parameters are transferred in registers, totaling up to fourteen register parameters","prefix":"t Linux than in 64-bit Windows. ","suffix":". In 64-bit Windows, the first f"}]}]}
+>```
+>%%
+>*%%PREFIX%%t Linux than in 64-bit Windows.%%HIGHLIGHT%% ==In 64-bit Linux, the first six integer parameters and the first eight floating point parameters are transferred in registers, totaling up to fourteen register parameters== %%POSTFIX%%. In 64-bit Windows, the first f*
+>%%LINK%%[[#^90zvww9sqeo|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^90zvww9sqeo
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:54:39.850Z","updated":"2023-04-17T01:54:39.850Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":160510,"end":160646},{"type":"TextQuoteSelector","exact":"The number of registers available for floating point and vector variables is 8 registers in 32-bit mode, and 16 registers in 64-bit mode","prefix":"2-bit Windows in this respect.  ","suffix":". It is further increased to 32 "}]}]}
+>```
+>%%
+>*%%PREFIX%%2-bit Windows in this respect.%%HIGHLIGHT%% ==The number of registers available for floating point and vector variables is 8 registers in 32-bit mode, and 16 registers in 64-bit mode== %%POSTFIX%%. It is further increased to 32*
+>%%LINK%%[[#^9nli56uu6bo|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^9nli56uu6bo
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:54:53.800Z","updated":"2023-04-17T01:54:53.800Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":160648,"end":160746},{"type":"TextQuoteSelector","exact":"It is further increased to 32 registers in 64 bit mode when the AVX512 instruction set is enabled.","prefix":"nd 16 registers in 64-bit mode. ","suffix":" A high number of registers impr"}]}]}
+>```
+>%%
+>*%%PREFIX%%nd 16 registers in 64-bit mode.%%HIGHLIGHT%% ==It is further increased to 32 registers in 64 bit mode when the AVX512 instruction set is enabled.== %%POSTFIX%%A high number of registers impr*
+>%%LINK%%[[#^zj7lniigsdd|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^zj7lniigsdd
