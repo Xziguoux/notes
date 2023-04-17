@@ -1286,3 +1286,17 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^oabw5nsn1kd
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T00:39:28.941Z","updated":"2023-04-17T00:39:28.941Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":142890,"end":143137},{"type":"TextQuoteSelector","exact":"Modern microprocessors are using advanced algorithms to predict which way a branch will go based on the past history of that branch and other nearby branches. The algorithms used for branch prediction are different for each type of microprocessor.","prefix":"t is used is branch prediction. ","suffix":" These algorithms are described "}]}]}
+>```
+>%%
+>*%%PREFIX%%t is used is branch prediction.%%HIGHLIGHT%% ==Modern microprocessors are using advanced algorithms to predict which way a branch will go based on the past history of that branch and other nearby branches. The algorithms used for branch prediction are different for each type of microprocessor.== %%POSTFIX%%These algorithms are described*
+>%%LINK%%[[#^z5c8k6vv7ri|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^z5c8k6vv7ri
