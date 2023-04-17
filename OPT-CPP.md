@@ -1300,3 +1300,200 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^z5c8k6vv7ri
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T00:44:36.540Z","updated":"2023-04-17T00:44:36.540Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":143245,"end":143539},{"type":"TextQuoteSelector","exact":"A branch instruction takes typically 0 - 2 clock cycles in the case that the microprocessor has made the right prediction. The time it takes to recover from a branch misprediction is approximately 12 - 25 clock cycles, depending on the processor. This is called the branch misprediction penalty","prefix":"e of Intel, AMD and VIA CPUs\".  ","suffix":".  Branches are relatively cheap"}]}]}
+>```
+>%%
+>*%%PREFIX%%e of Intel, AMD and VIA CPUs".%%HIGHLIGHT%% ==A branch instruction takes typically 0 - 2 clock cycles in the case that the microprocessor has made the right prediction. The time it takes to recover from a branch misprediction is approximately 12 - 25 clock cycles, depending on the processor. This is called the branch misprediction penalty== %%POSTFIX%%.  Branches are relatively cheap*
+>%%LINK%%[[#^d21je3jq41k|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^d21je3jq41k
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T00:49:03.231Z","updated":"2023-04-17T00:49:03.231Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":144886,"end":145147},{"type":"TextQuoteSelector","exact":"A switch statements is a kind of branch that can go more than two ways. Switch statements are most efficient if the case labels follow a sequence where each label is equal to the preceding label plus one, because it can be implemented as a table of jump targets","prefix":"ranches is not predicted well.  ","suffix":". A switch statement with many l"}]}]}
+>```
+>%%
+>*%%PREFIX%%ranches is not predicted well.%%HIGHLIGHT%% ==A switch statements is a kind of branch that can go more than two ways. Switch statements are most efficient if the case labels follow a sequence where each label is equal to the preceding label plus one, because it can be implemented as a table of jump targets== %%POSTFIX%%. A switch statement with many l*
+>%%LINK%%[[#^wbxoeoz3o7g|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^wbxoeoz3o7g
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T00:49:17.906Z","updated":"2023-04-17T00:49:17.906Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":145149,"end":145290},{"type":"TextQuoteSelector","exact":"A switch statement with many labels that have values far from each other is inefficient because the compiler must convert it to a branch tree","prefix":"ted as a table of jump targets. ","suffix":".  On older processors, a switch"}]}]}
+>```
+>%%
+>*%%PREFIX%%ted as a table of jump targets.%%HIGHLIGHT%% ==A switch statement with many labels that have values far from each other is inefficient because the compiler must convert it to a branch tree== %%POSTFIX%%.  On older processors, a switch*
+>%%LINK%%[[#^502dxfrlr7l|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^502dxfrlr7l
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T00:51:45.361Z","updated":"2023-04-17T00:51:45.361Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":145713,"end":145943},{"type":"TextQuoteSelector","exact":"The number of branches and switch statements should preferably be kept small in the critical part of a program, especially if the branches are poorly predictable. It may be useful to roll out a loop if this can eliminate branches,","prefix":"of different targets is small.  ","suffix":" as explained in the next paragr"}]}]}
+>```
+>%%
+>*%%PREFIX%%of different targets is small.%%HIGHLIGHT%% ==The number of branches and switch statements should preferably be kept small in the critical part of a program, especially if the branches are poorly predictable. It may be useful to roll out a loop if this can eliminate branches,== %%POSTFIX%%as explained in the next paragr*
+>%%LINK%%[[#^unrff7e7yy|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^unrff7e7yy
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T00:52:03.086Z","updated":"2023-04-17T00:52:03.086Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":145981,"end":146084},{"type":"TextQuoteSelector","exact":"The target of branches and function calls are saved in a special cache called the branch target buffer.","prefix":"plained in the next paragraph.  ","suffix":" Contentions in the branch targe"}]}]}
+>```
+>%%
+>*%%PREFIX%%plained in the next paragraph.%%HIGHLIGHT%% ==The target of branches and function calls are saved in a special cache called the branch target buffer.== %%POSTFIX%%Contentions in the branch targe*
+>%%LINK%%[[#^l6lztetevc|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^l6lztetevc
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T00:55:11.886Z","updated":"2023-04-17T00:55:11.886Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":147026,"end":147109},{"type":"TextQuoteSelector","exact":"In some cases the compiler can automatically replace a branch by a conditional move","prefix":"lues than 0 or 1. See page 34.  ","suffix":".   45 The examples on page 147 "}]}]}
+>```
+>%%
+>*%%PREFIX%%lues than 0 or 1. See page 34.%%HIGHLIGHT%% ==In some cases the compiler can automatically replace a branch by a conditional move== %%POSTFIX%%.   45 The examples on page 147*
+>%%LINK%%[[#^tquv868hiw|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^tquv868hiw
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:03:27.078Z","updated":"2023-04-17T01:03:27.078Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":147864,"end":147994},{"type":"TextQuoteSelector","exact":"On other processors, only the innermost loop is predicted well. A loop with a high repeat count is mispredicted only when it exits","prefix":" have a special loop predictor. ","suffix":". For example, if a loop repeats"}]}]}
+>```
+>%%
+>*%%PREFIX%%have a special loop predictor.%%HIGHLIGHT%% ==On other processors, only the innermost loop is predicted well. A loop with a high repeat count is mispredicted only when it exits== %%POSTFIX%%. For example, if a loop repeats*
+>%%LINK%%[[#^zn2195dhy7m|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^zn2195dhy7m
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:04:39.364Z","updated":"2023-04-17T01:04:39.364Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":148652,"end":148677},{"type":"TextQuoteSelector","exact":"This has three advantages","prefix":"  FuncB(i+1);    FuncC(i+1); }  ","suffix":":  • The i<20 loop control branc"}]}]}
+>```
+>%%
+>*%%PREFIX%%FuncB(i+1);    FuncC(i+1); }%%HIGHLIGHT%% ==This has three advantages== %%POSTFIX%%:  • The i<20 loop control branc*
+>%%LINK%%[[#^7qc8kewoz4n|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^7qc8kewoz4n
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:04:45.388Z","updated":"2023-04-17T01:04:45.388Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":148901,"end":148938},{"type":"TextQuoteSelector","exact":"Loop unrolling also has disadvantages","prefix":"• The if branch is eliminated.  ","suffix":":  • The unrolled loop takes up "}]}]}
+>```
+>%%
+>*%%PREFIX%%• The if branch is eliminated.%%HIGHLIGHT%% ==Loop unrolling also has disadvantages== %%POSTFIX%%:  • The unrolled loop takes up*
+>%%LINK%%[[#^7khvpqgrhnj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^7khvpqgrhnj
+
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:05:05.262Z","updated":"2023-04-17T01:05:05.262Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":148943,"end":149016},{"type":"TextQuoteSelector","exact":"The unrolled loop takes up more space in the code cache or micro-op cache","prefix":"ling also has disadvantages:  • ","suffix":".     46 • Many CPUs have a loop"}]}]}
+>```
+>%%
+>*%%PREFIX%%ling also has disadvantages:  •%%HIGHLIGHT%% ==The unrolled loop takes up more space in the code cache or micro-op cache== %%POSTFIX%%.     46 • Many CPUs have a loop*
+>%%LINK%%[[#^kocrx6gt18|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kocrx6gt18
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:06:44.828Z","updated":"2023-04-17T01:06:44.828Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":149449,"end":149537},{"type":"TextQuoteSelector","exact":"Loop unrolling should only be used if there are specific advantages that can be obtained","prefix":"ivisible by the unroll factor.  ","suffix":". If a loop contains floating po"}]}]}
+>```
+>%%
+>*%%PREFIX%%ivisible by the unroll factor.%%HIGHLIGHT%% ==Loop unrolling should only be used if there are specific advantages that can be obtained== %%POSTFIX%%. If a loop contains floating po*
+>%%LINK%%[[#^tqlx6wll5b8|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^tqlx6wll5b8
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:07:16.829Z","updated":"2023-04-17T01:07:16.829Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":149539,"end":149788},{"type":"TextQuoteSelector","exact":"If a loop contains floating point calculations or vector instructions and the loop counter is an integer, then you can generally assume that the overall computation time is determined by the floating point code rather than by the loop control branch","prefix":"dvantages that can be obtained. ","suffix":". There is nothing to gain by un"}]}]}
+>```
+>%%
+>*%%PREFIX%%dvantages that can be obtained.%%HIGHLIGHT%% ==If a loop contains floating point calculations or vector instructions and the loop counter is an integer, then you can generally assume that the overall computation time is determined by the floating point code rather than by the loop control branch== %%POSTFIX%%. There is nothing to gain by un*
+>%%LINK%%[[#^insixjib8o|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^insixjib8o
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:10:03.268Z","updated":"2023-04-17T01:10:03.268Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":149852,"end":149923},{"type":"TextQuoteSelector","exact":"Loop unrolling is useful when there is a loop-carried dependency chain,","prefix":"rolling the loop in this case.  ","suffix":" as explained on page 113.  Loop"}]}]}
+>```
+>%%
+>*%%PREFIX%%rolling the loop in this case.%%HIGHLIGHT%% ==Loop unrolling is useful when there is a loop-carried dependency chain,== %%POSTFIX%%as explained on page 113.  Loop*
+>%%LINK%%[[#^5xfegzjjwdu|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^5xfegzjjwdu
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:13:02.273Z","updated":"2023-04-17T01:13:02.273Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":150655,"end":150747},{"type":"TextQuoteSelector","exact":"It is less efficient if the loop control branch depends on the calculations inside the loop.","prefix":"ment several iterations ahead.  ","suffix":" The following example converts "}]}]}
+>```
+>%%
+>*%%PREFIX%%ment several iterations ahead.%%HIGHLIGHT%% ==It is less efficient if the loop control branch depends on the calculations inside the loop.== %%POSTFIX%%The following example converts*
+>%%LINK%%[[#^ejfw34r7iui|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ejfw34r7iui
