@@ -1497,3 +1497,241 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^ejfw34r7iui
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:14:37.535Z","updated":"2023-04-17T01:14:37.535Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":150907,"end":151000},{"type":"TextQuoteSelector","exact":"If the length of the string is already known then it is more efficient to use a loop counter:","prefix":"hile (*p != 0) *(p++) |= 0x20;  ","suffix":"  // Example 7.31b char string[1"}]}]}
+>```
+>%%
+>*%%PREFIX%%hile (*p != 0) *(p++) |= 0x20;%%HIGHLIGHT%% ==If the length of the string is already known then it is more efficient to use a loop counter:== %%POSTFIX%%// Example 7.31b char string[1*
+>%%LINK%%[[#^uce9i9gn3od|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^uce9i9gn3od
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:22:21.229Z","updated":"2023-04-17T01:22:21.229Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":152057,"end":152186},{"type":"TextQuoteSelector","exact":"A loop counter should preferably be an integer. If a loop needs a floating point counter then make an additional integer counter.","prefix":"o the total calculation time.   ","suffix":" Example:   47 // Example 7.32a "}]}]}
+>```
+>%%
+>*%%PREFIX%%o the total calculation time.%%HIGHLIGHT%% ==A loop counter should preferably be an integer. If a loop needs a floating point counter then make an additional integer counter.== %%POSTFIX%%Example:   47 // Example 7.32a*
+>%%LINK%%[[#^70olgdz8c8f|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^70olgdz8c8f
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:22:53.244Z","updated":"2023-04-17T01:22:53.244Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":153557,"end":153614},{"type":"TextQuoteSelector","exact":"It is often faster to use the functions memset and memcpy","prefix":"0; i < size; i++) b[i] = a[i];  ","suffix":":  // Example 7.33b const int si"}]}]}
+>```
+>%%
+>*%%PREFIX%%0; i < size; i++) b[i] = a[i];%%HIGHLIGHT%% ==It is often faster to use the functions memset and memcpy== %%POSTFIX%%:  // Example 7.33b const int si*
+>%%LINK%%[[#^2fgmu7foo0p|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^2fgmu7foo0p
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:23:04.038Z","updated":"2023-04-17T01:23:04.038Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":153764,"end":153872},{"type":"TextQuoteSelector","exact":"Most compilers will automatically replace such loops by calls to memset and memcpy, at least in simple cases","prefix":" to b memcpy(b, a, sizeof(b));  ","suffix":". The explicit use of memset and"}]}]}
+>```
+>%%
+>*%%PREFIX%%to b memcpy(b, a, sizeof(b));%%HIGHLIGHT%% ==Most compilers will automatically replace such loops by calls to memset and memcpy, at least in simple cases== %%POSTFIX%%. The explicit use of memset and*
+>%%LINK%%[[#^c2zr4syxcqb|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^c2zr4syxcqb
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:23:46.408Z","updated":"2023-04-17T01:23:46.408Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":154108,"end":154173},{"type":"TextQuoteSelector","exact":"Function calls may slow down a program for the following reasons:","prefix":"unt is too big.  7.14 Functions ","suffix":"  • The function call makes the "}]}]}
+>```
+>%%
+>*%%PREFIX%%unt is too big.  7.14 Functions%%HIGHLIGHT%% ==Function calls may slow down a program for the following reasons:== %%POSTFIX%%• The function call makes the*
+>%%LINK%%[[#^4yt2ndllx0c|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4yt2ndllx0c
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:26:38.128Z","updated":"2023-04-17T01:26:38.128Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":154429,"end":154466},{"type":"TextQuoteSelector","exact":"The code cache works less efficiently","prefix":"r calculations to save time.  • ","suffix":" if the code is fragmented and s"}]}]}
+>```
+>%%
+>*%%PREFIX%%r calculations to save time.  •%%HIGHLIGHT%% ==The code cache works less efficiently== %%POSTFIX%%if the code is fragmented and s*
+>%%LINK%%[[#^k0e3m0g2qzp|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^k0e3m0g2qzp
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:26:46.887Z","updated":"2023-04-17T01:26:46.887Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":154177,"end":154267},{"type":"TextQuoteSelector","exact":"The function call makes the microprocessor jump to a different code address and back again","prefix":"m for the following reasons:  • ","suffix":". This may take up to 4 clock cy"}]}]}
+>```
+>%%
+>*%%PREFIX%%m for the following reasons:  •%%HIGHLIGHT%% ==The function call makes the microprocessor jump to a different code address and back again== %%POSTFIX%%. This may take up to 4 clock cy*
+>%%LINK%%[[#^medf4xz91ub|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^medf4xz91ub
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:27:17.659Z","updated":"2023-04-17T01:27:17.659Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":154532,"end":154590},{"type":"TextQuoteSelector","exact":"Function parameters are stored on the stack in 32-bit mode","prefix":"ttered around in memory.   48 • ","suffix":". Storing the parameters on the "}]}]}
+>```
+>%%
+>*%%PREFIX%%ttered around in memory.   48 •%%HIGHLIGHT%% ==Function parameters are stored on the stack in 32-bit mode== %%POSTFIX%%. Storing the parameters on the*
+>%%LINK%%[[#^e2yfq2rc5nl|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^e2yfq2rc5nl
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:27:33.207Z","updated":"2023-04-17T01:27:33.207Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":154752,"end":154801},{"type":"TextQuoteSelector","exact":"Extra time is needed for setting up a stack frame","prefix":"a critical dependency chain.  • ","suffix":", saving and restoring registers"}]}]}
+>```
+>%%
+>*%%PREFIX%%a critical dependency chain.  •%%HIGHLIGHT%% ==Extra time is needed for setting up a stack frame== %%POSTFIX%%, saving and restoring registers*
+>%%LINK%%[[#^lshjzffghif|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^lshjzffghif
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:27:48.166Z","updated":"2023-04-17T01:27:48.166Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":154888,"end":154967},{"type":"TextQuoteSelector","exact":"Each function call statement occupies a space in the branch target buffer (BTB)","prefix":"eption handling information.  • ","suffix":". Contentions in the BTB can cau"}]}]}
+>```
+>%%
+>*%%PREFIX%%eption handling information.  •%%HIGHLIGHT%% ==Each function call statement occupies a space in the branch target buffer (BTB)== %%POSTFIX%%. Contentions in the BTB can cau*
+>%%LINK%%[[#^ixobbgmgdxh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ixobbgmgdxh
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:30:49.815Z","updated":"2023-04-17T01:30:49.815Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":155391,"end":155485},{"type":"TextQuoteSelector","exact":"Splitting up a function into multiple smaller functions only makes the program less efficient.","prefix":"ons. I disagree with this rule. ","suffix":" Splitting up a function just be"}]}]}
+>```
+>%%
+>*%%PREFIX%%ons. I disagree with this rule.%%HIGHLIGHT%% ==Splitting up a function into multiple smaller functions only makes the program less efficient.== %%POSTFIX%%Splitting up a function just be*
+>%%LINK%%[[#^1g6vb0oi04|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^1g6vb0oi04
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:34:45.342Z","updated":"2023-04-17T01:34:45.342Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":156510,"end":156524},{"type":"TextQuoteSelector","exact":" leaf function","prefix":"l any other function is called a","suffix":". Leaf functions are more effici"}]}]}
+>```
+>%%
+>*%%PREFIX%%l any other function is called a%%HIGHLIGHT%% ==leaf function== %%POSTFIX%%. Leaf functions are more effici*
+>%%LINK%%[[#^o2959c57tse|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^o2959c57tse
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:34:49.120Z","updated":"2023-04-17T01:34:49.120Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":156428,"end":156443},{"type":"TextQuoteSelector","exact":"frame function,","prefix":"lls other functions is called a ","suffix":" while a function that does not "}]}]}
+>```
+>%%
+>*%%PREFIX%%lls other functions is called a%%HIGHLIGHT%% ==frame function,== %%POSTFIX%%while a function that does not*
+>%%LINK%%[[#^trmz4th1bf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^trmz4th1bf
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:37:06.367Z","updated":"2023-04-17T01:37:06.367Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":156526,"end":156614},{"type":"TextQuoteSelector","exact":"Leaf functions are more efficient than frame functions for reasons explained on page 63.","prefix":"tion is called a leaf function. ","suffix":" If the critical innermost loop "}]}]}
+>```
+>%%
+>*%%PREFIX%%tion is called a leaf function.%%HIGHLIGHT%% ==Leaf functions are more efficient than frame functions for reasons explained on page 63.== %%POSTFIX%%If the critical innermost loop*
+>%%LINK%%[[#^gbeefg9qdr8|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^gbeefg9qdr8
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:37:23.786Z","updated":"2023-04-17T01:37:23.786Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":156894,"end":157021},{"type":"TextQuoteSelector","exact":"A macro declared with #define is certain to be inlined. But beware that macro parameters are evaluated every time they are used","prefix":"Use macros instead of functions ","suffix":". Example:  // Example 7.34a. Us"}]}]}
+>```
+>%%
+>*%%PREFIX%%Use macros instead of functions%%HIGHLIGHT%% ==A macro declared with #define is certain to be inlined. But beware that macro parameters are evaluated every time they are used== %%POSTFIX%%. Example:  // Example 7.34a. Us*
+>%%LINK%%[[#^lho9cmh2hqa|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^lho9cmh2hqa
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:39:02.353Z","updated":"2023-04-17T01:39:02.353Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":157529,"end":157614},{"type":"TextQuoteSelector","exact":"Another problem with macros is that the name cannot be overloaded or limited in scope","prefix":"   return a > b ? a : b; }  49  ","suffix":". A macro will interfere with an"}]}]}
+>```
+>%%
+>*%%PREFIX%%return a > b ? a : b; }  49%%HIGHLIGHT%% ==Another problem with macros is that the name cannot be overloaded or limited in scope== %%POSTFIX%%. A macro will interfere with an*
+>%%LINK%%[[#^az912r6tg9p|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^az912r6tg9p
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-17T01:41:18.354Z","updated":"2023-04-17T01:41:18.354Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":157616,"end":157820},{"type":"TextQuoteSelector","exact":"A macro will interfere with any function or variable having the same name, regardless of scope or namespaces. Therefore, it is important to use long and unique names for macros, especially in header files","prefix":"overloaded or limited in scope. ","suffix":". Use fastcall and vectorcall fu"}]}]}
+>```
+>%%
+>*%%PREFIX%%overloaded or limited in scope.%%HIGHLIGHT%% ==A macro will interfere with any function or variable having the same name, regardless of scope or namespaces. Therefore, it is important to use long and unique names for macros, especially in header files== %%POSTFIX%%. Use fastcall and vectorcall fu*
+>%%LINK%%[[#^x8o3unxddn|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^x8o3unxddn
