@@ -2351,3 +2351,367 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^u7e19mxxwr
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:04:33.181Z","updated":"2023-04-18T01:04:33.181Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":175453,"end":175597},{"type":"TextQuoteSelector","exact":"f you can avoid virtual functions then you can obtain most of the advantages of object oriented programming without paying the performance costs","prefix":" non-object oriented programs. I","suffix":".  The time it takes to call a v"}]}]}
+>```
+>%%
+>*%%PREFIX%%non-object oriented programs. I%%HIGHLIGHT%% ==f you can avoid virtual functions then you can obtain most of the advantages of object oriented programming without paying the performance costs== %%POSTFIX%%.  The time it takes to call a v*
+>%%LINK%%[[#^vbo5jia8ea|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^vbo5jia8ea
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:05:19.914Z","updated":"2023-04-18T01:05:19.914Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":175918,"end":176023},{"type":"TextQuoteSelector","exact":"The rules for prediction and misprediction of virtual function calls is the same as for switch statements","prefix":"enalty of 10 - 20 clock cycles. ","suffix":", as explained on page 44.  The "}]}]}
+>```
+>%%
+>*%%PREFIX%%enalty of 10 - 20 clock cycles.%%HIGHLIGHT%% ==The rules for prediction and misprediction of virtual function calls is the same as for switch statements== %%POSTFIX%%, as explained on page 44.  The*
+>%%LINK%%[[#^xo0w14tprg|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^xo0w14tprg
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:08:05.829Z","updated":"2023-04-18T01:08:05.829Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":176287,"end":176418},{"type":"TextQuoteSelector","exact":"Runtime polymorphism is needed only if it cannot be known at compile time which version of a polymorphic member function is called.","prefix":"obvious to do so. See page 76.  ","suffix":" If virtual functions are used i"}]}]}
+>```
+>%%
+>*%%PREFIX%%obvious to do so. See page 76.%%HIGHLIGHT%% ==Runtime polymorphism is needed only if it cannot be known at compile time which version of a polymorphic member function is called.== %%POSTFIX%%If virtual functions are used i*
+>%%LINK%%[[#^w1qf7k1eyz8|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^w1qf7k1eyz8
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:09:11.211Z","updated":"2023-04-18T01:09:11.211Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":176619,"end":176936},{"type":"TextQuoteSelector","exact":"It is sometimes possible to obtain the desired polymorphism effect with templates instead of virtual functions. The template parameter should be a class containing the functions that have multiple versions. This method is faster because the template parameter is always resolved at compile time rather than at runtime","prefix":"ith compile-time polymorphism.  ","suffix":". Example 7.47 on page 59 shows "}]}]}
+>```
+>%%
+>*%%PREFIX%%ith compile-time polymorphism.%%HIGHLIGHT%% ==It is sometimes possible to obtain the desired polymorphism effect with templates instead of virtual functions. The template parameter should be a class containing the functions that have multiple versions. This method is faster because the template parameter is always resolved at compile time rather than at runtime== %%POSTFIX%%. Example 7.47 on page 59 shows*
+>%%LINK%%[[#^oazapizhet|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^oazapizhet
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:09:15.370Z","updated":"2023-04-18T01:09:15.370Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":176938,"end":177072},{"type":"TextQuoteSelector","exact":"Example 7.47 on page 59 shows an example of how to do this. Unfortunately, the syntax is so kludgy that it may not be worth the effort","prefix":"le time rather than at runtime. ","suffix":".  7.23 Runtime type identificat"}]}]}
+>```
+>%%
+>*%%PREFIX%%le time rather than at runtime.%%HIGHLIGHT%% ==Example 7.47 on page 59 shows an example of how to do this. Unfortunately, the syntax is so kludgy that it may not be worth the effort== %%POSTFIX%%.  7.23 Runtime type identificat*
+>%%LINK%%[[#^szqnrku8wrl|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^szqnrku8wrl
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:10:49.299Z","updated":"2023-04-18T01:10:49.299Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":177115,"end":177208},{"type":"TextQuoteSelector","exact":"Runtime type identification adds extra information to all class objects and is not efficient.","prefix":"time type identification (RTTI) ","suffix":" If the compiler has an option f"}]}]}
+>```
+>%%
+>*%%PREFIX%%time type identification (RTTI)%%HIGHLIGHT%% ==Runtime type identification adds extra information to all class objects and is not efficient.== %%POSTFIX%%If the compiler has an option f*
+>%%LINK%%[[#^yiow71tajn|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^yiow71tajn
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:11:01.699Z","updated":"2023-04-18T01:11:01.699Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":177320,"end":177464},{"type":"TextQuoteSelector","exact":"An object of a derived class is implemented in the same way as an object of a simple class containing the members of both parent and child class","prefix":"lementations.  7.24 Inheritance ","suffix":". Members of parent and child cl"}]}]}
+>```
+>%%
+>*%%PREFIX%%lementations.  7.24 Inheritance%%HIGHLIGHT%% ==An object of a derived class is implemented in the same way as an object of a simple class containing the members of both parent and child class== %%POSTFIX%%. Members of parent and child cl*
+>%%LINK%%[[#^8a5qtv9iu3u|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^8a5qtv9iu3u
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:11:48.611Z","updated":"2023-04-18T01:11:48.611Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":177623,"end":177707},{"type":"TextQuoteSelector","exact":"here may be a degradation in code caching and data caching for the following reasons","prefix":"penalty to using inheritance.  T","suffix":":  • The child class includes al"}]}]}
+>```
+>%%
+>*%%PREFIX%%penalty to using inheritance.  T%%HIGHLIGHT%% ==here may be a degradation in code caching and data caching for the following reasons== %%POSTFIX%%:  • The child class includes al*
+>%%LINK%%[[#^3jtsm7lcb98|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^3jtsm7lcb98
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:12:37.718Z","updated":"2023-04-18T01:12:37.718Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":178029,"end":178306},{"type":"TextQuoteSelector","exact":"The member functions of parent and child are possibly stored in different modules. This may cause a lot of jumping around and less efficient code caching. This problem can be solved by making sure that functions which are called near each other are also stored near each other.","prefix":"y less compact. See page 54.  • ","suffix":" See page 92 for details.  Inher"}]}]}
+>```
+>%%
+>*%%PREFIX%%y less compact. See page 54.  •%%HIGHLIGHT%% ==The member functions of parent and child are possibly stored in different modules. This may cause a lot of jumping around and less efficient code caching. This problem can be solved by making sure that functions which are called near each other are also stored near each other.== %%POSTFIX%%See page 92 for details.  Inher*
+>%%LINK%%[[#^94ldsj9lj1p|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^94ldsj9lj1p
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:14:10.719Z","updated":"2023-04-18T01:14:10.719Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":178557,"end":178634},{"type":"TextQuoteSelector","exact":"You may avoid multiple inheritance by making objects inside the derived class","prefix":"ter to one of the base classes. ","suffix":":   // Example 7.42a. Multiple i"}]}]}
+>```
+>%%
+>*%%PREFIX%%ter to one of the base classes.%%HIGHLIGHT%% ==You may avoid multiple inheritance by making objects inside the derived class== %%POSTFIX%%:   // Example 7.42a. Multiple i*
+>%%LINK%%[[#^iufn9fkbgo|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^iufn9fkbgo
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:14:38.441Z","updated":"2023-04-18T01:14:38.441Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":178895,"end":178988},{"type":"TextQuoteSelector","exact":"In general, you should use inheritance only if it is good for logic structure of the program.","prefix":"public:    B2 b2;    int c; };  ","suffix":"  7.25 Constructors and destruct"}]}]}
+>```
+>%%
+>*%%PREFIX%%public:    B2 b2;    int c; };%%HIGHLIGHT%% ==In general, you should use inheritance only if it is good for logic structure of the program.== %%POSTFIX%%7.25 Constructors and destruct*
+>%%LINK%%[[#^0x6115n923od|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^0x6115n923od
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:15:15.740Z","updated":"2023-04-18T01:15:15.740Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":179219,"end":179373},{"type":"TextQuoteSelector","exact":"Constructors are therefore as efficient as any other member functions. This applies to default constructors, copy constructors, and any other constructors","prefix":"done by the constructor itself. ","suffix":".  A class does not need a const"}]}]}
+>```
+>%%
+>*%%PREFIX%%done by the constructor itself.%%HIGHLIGHT%% ==Constructors are therefore as efficient as any other member functions. This applies to default constructors, copy constructors, and any other constructors== %%POSTFIX%%.  A class does not need a const*
+>%%LINK%%[[#^3s6gdllz58u|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^3s6gdllz58u
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:15:55.929Z","updated":"2023-04-18T01:15:55.929Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":179413,"end":179491},{"type":"TextQuoteSelector","exact":"A default constructor is not needed if the object does not need initialization","prefix":"ss does not need a constructor. ","suffix":". A copy constructor is not need"}]}]}
+>```
+>%%
+>*%%PREFIX%%ss does not need a constructor.%%HIGHLIGHT%% ==A default constructor is not needed if the object does not need initialization== %%POSTFIX%%. A copy constructor is not need*
+>%%LINK%%[[#^4eyjcvqoy8c|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4eyjcvqoy8c
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:16:03.948Z","updated":"2023-04-18T01:16:03.948Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":179493,"end":179588},{"type":"TextQuoteSelector","exact":"A copy constructor is not needed if the object can be copied simply by copying all data members","prefix":"t does not need initialization. ","suffix":". A simple constructor may be in"}]}]}
+>```
+>%%
+>*%%PREFIX%%t does not need initialization.%%HIGHLIGHT%% ==A copy constructor is not needed if the object can be copied simply by copying all data members== %%POSTFIX%%. A simple constructor may be in*
+>%%LINK%%[[#^cy4i7v0elip|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^cy4i7v0elip
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:16:12.312Z","updated":"2023-04-18T01:16:12.312Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":179590,"end":179651},{"type":"TextQuoteSelector","exact":"A simple constructor may be inlined for improved performance.","prefix":"ly by copying all data members. ","suffix":"  A copy constructor may be call"}]}]}
+>```
+>%%
+>*%%PREFIX%%ly by copying all data members.%%HIGHLIGHT%% ==A simple constructor may be inlined for improved performance.== %%POSTFIX%%A copy constructor may be call*
+>%%LINK%%[[#^olnlrumm2qf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^olnlrumm2qf
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:20:27.310Z","updated":"2023-04-18T01:20:27.310Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":179653,"end":179885},{"type":"TextQuoteSelector","exact":"A copy constructor may be called whenever an object is copied by assignment, as a function parameter, or as a function return value. The copy constructor can be a time consumer if it involves allocation of memory or other resources.","prefix":"ined for improved performance.  ","suffix":" There are various ways to avoid"}]}]}
+>```
+>%%
+>*%%PREFIX%%ined for improved performance.%%HIGHLIGHT%% ==A copy constructor may be called whenever an object is copied by assignment, as a function parameter, or as a function return value. The copy constructor can be a time consumer if it involves allocation of memory or other resources.== %%POSTFIX%%There are various ways to avoid*
+>%%LINK%%[[#^l0e249fwb3e|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^l0e249fwb3e
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:20:31.477Z","updated":"2023-04-18T01:20:31.477Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":179886,"end":179969},{"type":"TextQuoteSelector","exact":"There are various ways to avoid this wasteful copying of memory blocks, for example","prefix":"n of memory or other resources. ","suffix":": • Use a reference or pointer t"}]}]}
+>```
+>%%
+>*%%PREFIX%%n of memory or other resources.%%HIGHLIGHT%% ==There are various ways to avoid this wasteful copying of memory blocks, for example== %%POSTFIX%%: • Use a reference or pointer t*
+>%%LINK%%[[#^ph9uil1ogcs|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ph9uil1ogcs
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:21:57.076Z","updated":"2023-04-18T01:21:57.076Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":180038,"end":180104},{"type":"TextQuoteSelector","exact":"Use a \"move constructor\" to transfer ownership of the memory block","prefix":" object instead of copying it • ","suffix":". This requires C++0x or later. "}]}]}
+>```
+>%%
+>*%%PREFIX%%object instead of copying it •%%HIGHLIGHT%% ==Use a "move constructor" to transfer ownership of the memory block== %%POSTFIX%%. This requires C++0x or later.*
+>%%LINK%%[[#^ohg55dj5ciq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ohg55dj5ciq
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:22:30.714Z","updated":"2023-04-18T01:22:30.714Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":180447,"end":180545},{"type":"TextQuoteSelector","exact":"A destructor is as efficient as a member function. Do not make a destructor if it is not necessary","prefix":"ry block that the object owns.  ","suffix":". A virtual destructor is as eff"}]}]}
+>```
+>%%
+>*%%PREFIX%%ry block that the object owns.%%HIGHLIGHT%% ==A destructor is as efficient as a member function. Do not make a destructor if it is not necessary== %%POSTFIX%%. A virtual destructor is as eff*
+>%%LINK%%[[#^6iqnro8h7ac|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^6iqnro8h7ac
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:22:40.125Z","updated":"2023-04-18T01:22:40.125Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":180546,"end":180613},{"type":"TextQuoteSelector","exact":" A virtual destructor is as efficient as a virtual member function.","prefix":"structor if it is not necessary.","suffix":" See page 55.   57 7.26 Unions A"}]}]}
+>```
+>%%
+>*%%PREFIX%%structor if it is not necessary.%%HIGHLIGHT%% ==A virtual destructor is as efficient as a virtual member function.== %%POSTFIX%%See page 55.   57 7.26 Unions A*
+>%%LINK%%[[#^c39vtiwhvld|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^c39vtiwhvld
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:23:02.385Z","updated":"2023-04-18T01:23:02.385Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":180644,"end":180713},{"type":"TextQuoteSelector","exact":"A union is a structure where data members share the same memory space","prefix":". See page 55.   57 7.26 Unions ","suffix":". A union can be used for saving"}]}]}
+>```
+>%%
+>*%%PREFIX%%. See page 55.   57 7.26 Unions%%HIGHLIGHT%% ==A union is a structure where data members share the same memory space== %%POSTFIX%%. A union can be used for saving*
+>%%LINK%%[[#^j2qk7yhtfin|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^j2qk7yhtfin
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:27:21.031Z","updated":"2023-04-18T01:27:21.031Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":181245,"end":181495},{"type":"TextQuoteSelector","exact":"Bitfields may be useful for making data more compact. Accessing a member of a bitfield is less efficient than accessing a member of a structure. The extra time may be justified in case of large arrays if it can save cache space or make files smaller.","prefix":"ed to integers.  7.27 Bitfields ","suffix":"  It is faster to compose a bitf"}]}]}
+>```
+>%%
+>*%%PREFIX%%ed to integers.  7.27 Bitfields%%HIGHLIGHT%% ==Bitfields may be useful for making data more compact. Accessing a member of a bitfield is less efficient than accessing a member of a structure. The extra time may be justified in case of large arrays if it can save cache space or make files smaller.== %%POSTFIX%%It is faster to compose a bitf*
+>%%LINK%%[[#^bm5t5034wqu|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^bm5t5034wqu
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:30:56.771Z","updated":"2023-04-18T01:30:56.771Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":182185,"end":182276},{"type":"TextQuoteSelector","exact":"The different versions of an overloaded function are simply treated as different functions.","prefix":"  58  7.28 Overloaded functions ","suffix":" There is no performance penalty"}]}]}
+>```
+>%%
+>*%%PREFIX%%58  7.28 Overloaded functions%%HIGHLIGHT%% ==The different versions of an overloaded function are simply treated as different functions.== %%POSTFIX%%There is no performance penalty*
+>%%LINK%%[[#^r98m4qtxwwp|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^r98m4qtxwwp
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:31:01.609Z","updated":"2023-04-18T01:31:01.609Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":182277,"end":182340},{"type":"TextQuoteSelector","exact":"There is no performance penalty for using overloaded functions.","prefix":"treated as different functions. ","suffix":"  7.29 Overloaded operators An o"}]}]}
+>```
+>%%
+>*%%PREFIX%%treated as different functions.%%HIGHLIGHT%% ==There is no performance penalty for using overloaded functions.== %%POSTFIX%%7.29 Overloaded operators An o*
+>%%LINK%%[[#^1nnox855z7l|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^1nnox855z7l
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:33:34.890Z","updated":"2023-04-18T01:33:34.890Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":183137,"end":183174},{"type":"TextQuoteSelector","exact":"makes intermediate object for (b + c)","prefix":"c, d; a = b + c + d;         // ","suffix":"  The creation of a temporary ob"}]}]}
+>```
+>%%
+>*%%PREFIX%%c, d; a = b + c + d;         //%%HIGHLIGHT%% ==makes intermediate object for (b + c)== %%POSTFIX%%The creation of a temporary ob*
+>%%LINK%%[[#^z0fjncrzavb|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^z0fjncrzavb
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:34:24.729Z","updated":"2023-04-18T01:34:24.729Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":183352,"end":183435},{"type":"TextQuoteSelector","exact":"Fortunately, most compilers will do this optimization automatically in simple cases","prefix":" + d.x; a.y = b.y + c.y + d.y;  ","suffix":".  7.30 Templates A template is "}]}]}
+>```
+>%%
+>*%%PREFIX%%+ d.x; a.y = b.y + c.y + d.y;%%HIGHLIGHT%% ==Fortunately, most compilers will do this optimization automatically in simple cases== %%POSTFIX%%.  7.30 Templates A template is*
+>%%LINK%%[[#^6ygpv22lemm|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^6ygpv22lemm
