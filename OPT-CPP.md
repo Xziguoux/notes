@@ -1875,3 +1875,171 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^zj7lniigsdd
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:07:00.020Z","updated":"2023-04-18T00:07:00.020Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":161343,"end":161449},{"type":"TextQuoteSelector","exact":"The transfer of a parameter of composite type is most efficient if all of the following conditions are met","prefix":"e such as a structure or class. ","suffix":":  • the object is so small that"}]}]}
+>```
+>%%
+>*%%PREFIX%%e such as a structure or class.%%HIGHLIGHT%% ==The transfer of a parameter of composite type is most efficient if all of the following conditions are met== %%POSTFIX%%:  • the object is so small that*
+>%%LINK%%[[#^cc2o0r2qkyb|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^cc2o0r2qkyb
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:10:44.292Z","updated":"2023-04-18T00:10:44.292Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":162012,"end":162176},{"type":"TextQuoteSelector","exact":"The preferred method for transferring composite objects to a function is by a const reference. A const reference makes sure that the original object is not modified","prefix":"d before the function returns.  ","suffix":". Unlike a pointer or a non-cons"}]}]}
+>```
+>%%
+>*%%PREFIX%%d before the function returns.%%HIGHLIGHT%% ==The preferred method for transferring composite objects to a function is by a const reference. A const reference makes sure that the original object is not modified== %%POSTFIX%%. Unlike a pointer or a non-cons*
+>%%LINK%%[[#^bc8lxksmuua|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^bc8lxksmuua
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:11:08.303Z","updated":"2023-04-18T00:11:08.303Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":162221,"end":162310},{"type":"TextQuoteSelector","exact":"a const reference allows the function argument to be an expression or an anonymous object","prefix":"inter or a non-const reference, ","suffix":". The compiler can easily optimi"}]}]}
+>```
+>%%
+>*%%PREFIX%%inter or a non-const reference,%%HIGHLIGHT%% ==a const reference allows the function argument to be an expression or an anonymous object== %%POSTFIX%%. The compiler can easily optimi*
+>%%LINK%%[[#^00djr7a5h15wb|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^00djr7a5h15wb
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:11:22.922Z","updated":"2023-04-18T00:11:22.922Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":162312,"end":162394},{"type":"TextQuoteSelector","exact":"The compiler can easily optimize away a const reference if the function is inlined","prefix":"ression or an anonymous object. ","suffix":".  An alternative solution is to"}]}]}
+>```
+>%%
+>*%%PREFIX%%ression or an anonymous object.%%HIGHLIGHT%% ==The compiler can easily optimize away a const reference if the function is inlined== %%POSTFIX%%.  An alternative solution is to*
+>%%LINK%%[[#^kzmr303jhs|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kzmr303jhs
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:12:28.308Z","updated":"2023-04-18T00:12:28.308Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":162397,"end":162516},{"type":"TextQuoteSelector","exact":"An alternative solution is to make the function a member of the object's class or structure. This is equally efficient.","prefix":"ce if the function is inlined.  ","suffix":"  Simple function parameters are"}]}]}
+>```
+>%%
+>*%%PREFIX%%ce if the function is inlined.%%HIGHLIGHT%% ==An alternative solution is to make the function a member of the object's class or structure. This is equally efficient.== %%POSTFIX%%Simple function parameters are*
+>%%LINK%%[[#^4oejwgx9lo|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4oejwgx9lo
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:27:31.104Z","updated":"2023-04-18T00:27:31.104Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":162994,"end":163064},{"type":"TextQuoteSelector","exact":"\"Calling conventions for different C++ compilers and operating systems","prefix":" details are given in manual 5: ","suffix":"\".  7.16 Function return types T"}]}]}
+>```
+>%%
+>*%%PREFIX%%details are given in manual 5:%%HIGHLIGHT%% =="Calling conventions for different C++ compilers and operating systems== %%POSTFIX%%".  7.16 Function return types T*
+>%%LINK%%[[#^wf2arh6nqi|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^wf2arh6nqi
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:28:01.802Z","updated":"2023-04-18T00:28:01.802Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":163194,"end":163270},{"type":"TextQuoteSelector","exact":"Returning objects of a composite type is more complex and often inefficient.","prefix":" pointer, a reference, or void. ","suffix":"  Objects of a composite type ca"}]}]}
+>```
+>%%
+>*%%PREFIX%%pointer, a reference, or void.%%HIGHLIGHT%% ==Returning objects of a composite type is more complex and often inefficient.== %%POSTFIX%%Objects of a composite type ca*
+>%%LINK%%[[#^kvzmg3rz6u|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kvzmg3rz6u
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:28:55.359Z","updated":"2023-04-18T00:28:55.359Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":163776,"end":163956},{"type":"TextQuoteSelector","exact":"In simple cases, the compiler may be able to avoid the calls to the copy constructor and the destructor by constructing the object on its final destination, but do not count on it.","prefix":"when the original is destroyed. ","suffix":"  Instead of returning a composi"}]}]}
+>```
+>%%
+>*%%PREFIX%%when the original is destroyed.%%HIGHLIGHT%% ==In simple cases, the compiler may be able to avoid the calls to the copy constructor and the destructor by constructing the object on its final destination, but do not count on it.== %%POSTFIX%%Instead of returning a composi*
+>%%LINK%%[[#^6qrujiztnx3|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^6qrujiztnx3
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:31:29.156Z","updated":"2023-04-18T00:31:29.156Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":164330,"end":164425},{"type":"TextQuoteSelector","exact":"Make the function return a pointer or reference to a static object defined inside the function.","prefix":"ber of the object's class.    • ","suffix":" This is efficient, but risky. T"}]}]}
+>```
+>%%
+>*%%PREFIX%%ber of the object's class.    •%%HIGHLIGHT%% ==Make the function return a pointer or reference to a static object defined inside the function.== %%POSTFIX%%This is efficient, but risky. T*
+>%%LINK%%[[#^6wykmc5g52k|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^6wykmc5g52k
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:31:50.456Z","updated":"2023-04-18T00:31:50.456Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":164983,"end":165032},{"type":"TextQuoteSelector","exact":"A tail call is a way of optimizing function calls","prefix":"ject.  7.17 Function tail calls ","suffix":". If the last statement of a fun"}]}]}
+>```
+>%%
+>*%%PREFIX%%ject.  7.17 Function tail calls%%HIGHLIGHT%% ==A tail call is a way of optimizing function calls== %%POSTFIX%%. If the last statement of a fun*
+>%%LINK%%[[#^487fa93cxkq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^487fa93cxkq
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:32:33.449Z","updated":"2023-04-18T00:32:33.449Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":165174,"end":165405},{"type":"TextQuoteSelector","exact":"An optimizing compiler will do this automatically. The second function will not return to the first function, but directly to the place where the first function was called from. This is more efficient because it eliminates a return","prefix":" a jump to the second function. ","suffix":". Example:  // Example 7.35. Tai"}]}]}
+>```
+>%%
+>*%%PREFIX%%a jump to the second function.%%HIGHLIGHT%% ==An optimizing compiler will do this automatically. The second function will not return to the first function, but directly to the place where the first function was called from. This is more efficient because it eliminates a return== %%POSTFIX%%. Example:  // Example 7.35. Tai*
+>%%LINK%%[[#^pvk6lufqe4|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^pvk6lufqe4
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:33:25.051Z","updated":"2023-04-18T00:33:25.051Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":165771,"end":165855},{"type":"TextQuoteSelector","exact":"The tail call optimization works only if the two functions have the same return type","prefix":"..    return function2(y+1); }  ","suffix":". If the functions have paramete"}]}]}
+>```
+>%%
+>*%%PREFIX%%..    return function2(y+1); }%%HIGHLIGHT%% ==The tail call optimization works only if the two functions have the same return type== %%POSTFIX%%. If the functions have paramete*
+>%%LINK%%[[#^0fhw6j6x1z0e|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^0fhw6j6x1z0e
