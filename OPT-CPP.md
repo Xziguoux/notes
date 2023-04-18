@@ -2043,3 +2043,311 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^0fhw6j6x1z0e
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:35:46.869Z","updated":"2023-04-18T00:35:46.869Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":166586,"end":166775},{"type":"TextQuoteSelector","exact":"Recursive function calls can still be the most efficient solution for handling a branching data tree structure. Recursion is more efficient if the tree structure is broad than if it is deep","prefix":" of Intel, AMD and VIA CPUs\").  ","suffix":". A non-branching recursion can "}]}]}
+>```
+>%%
+>*%%PREFIX%%of Intel, AMD and VIA CPUs").%%HIGHLIGHT%% ==Recursive function calls can still be the most efficient solution for handling a branching data tree structure. Recursion is more efficient if the tree structure is broad than if it is deep== %%POSTFIX%%. A non-branching recursion can*
+>%%LINK%%[[#^2ckydbr8k7x|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^2ckydbr8k7x
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:36:40.507Z","updated":"2023-04-18T00:36:40.507Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":167470,"end":167575},{"type":"TextQuoteSelector","exact":"Recursive tail calls are more efficient than other recursive calls, but still less efficient than a loop.","prefix":"n--;    }    return product; }  ","suffix":"   Novice programmers sometimes "}]}]}
+>```
+>%%
+>*%%PREFIX%%n--;    }    return product; }%%HIGHLIGHT%% ==Recursive tail calls are more efficient than other recursive calls, but still less efficient than a loop.== %%POSTFIX%%Novice programmers sometimes*
+>%%LINK%%[[#^qb6c8urwo6k|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^qb6c8urwo6k
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:38:44.003Z","updated":"2023-04-18T00:38:44.003Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":167662,"end":167792},{"type":"TextQuoteSelector","exact":"This is a bad idea because the stack becomes filled up with new instances of all local variables for every recursive call to main.","prefix":"order to restart their program. ","suffix":" The proper way to restart a pro"}]}]}
+>```
+>%%
+>*%%PREFIX%%order to restart their program.%%HIGHLIGHT%% ==This is a bad idea because the stack becomes filled up with new instances of all local variables for every recursive call to main.== %%POSTFIX%%The proper way to restart a pro*
+>%%LINK%%[[#^ts3femardbc|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ts3femardbc
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:43:07.691Z","updated":"2023-04-18T00:43:07.691Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":168202,"end":168351},{"type":"TextQuoteSelector","exact":"Variables that are used together are also stored together if they are members of the same structure or class. This makes data caching more efficient.","prefix":"e. The positive effects are:  • ","suffix":"  • Variables that are members o"}]}]}
+>```
+>%%
+>*%%PREFIX%%e. The positive effects are:  •%%HIGHLIGHT%% ==Variables that are used together are also stored together if they are members of the same structure or class. This makes data caching more efficient.== %%POSTFIX%%• Variables that are members o*
+>%%LINK%%[[#^jjmy3q3bec|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^jjmy3q3bec
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:44:27.991Z","updated":"2023-04-18T00:44:27.991Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":168355,"end":168452},{"type":"TextQuoteSelector","exact":"Variables that are members of a class need not be passed as parameters to a class member function","prefix":"data caching more efficient.  • ","suffix":". The overhead of parameter tran"}]}]}
+>```
+>%%
+>*%%PREFIX%%data caching more efficient.  •%%HIGHLIGHT%% ==Variables that are members of a class need not be passed as parameters to a class member function== %%POSTFIX%%. The overhead of parameter tran*
+>%%LINK%%[[#^6weosb7ggzw|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^6weosb7ggzw
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:45:42.079Z","updated":"2023-04-18T00:45:42.079Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":168582,"end":168669},{"type":"TextQuoteSelector","exact":"Some programmers are dividing the code into too many small classes. This is inefficient","prefix":"ct oriented programming are:  • ","suffix":".    • Non-static member functio"}]}]}
+>```
+>%%
+>*%%PREFIX%%ct oriented programming are:  •%%HIGHLIGHT%% ==Some programmers are dividing the code into too many small classes. This is inefficient== %%POSTFIX%%.    • Non-static member functio*
+>%%LINK%%[[#^8k3uo9zc75o|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^8k3uo9zc75o
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:46:35.236Z","updated":"2023-04-18T00:46:35.236Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":168789,"end":168881},{"type":"TextQuoteSelector","exact":"The overhead of parameter transfer for 'this' is incurred on all non-static member functions","prefix":"icit parameter to the function. ","suffix":".  • The 'this' pointer takes up"}]}]}
+>```
+>%%
+>*%%PREFIX%%icit parameter to the function.%%HIGHLIGHT%% ==The overhead of parameter transfer for 'this' is incurred on all non-static member functions== %%POSTFIX%%.  • The 'this' pointer takes up*
+>%%LINK%%[[#^1dahur7xhwj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^1dahur7xhwj
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:46:52.553Z","updated":"2023-04-18T00:46:52.553Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":168886,"end":168978},{"type":"TextQuoteSelector","exact":"The 'this' pointer takes up one register. Registers are a scarce resource in 32-bit systems.","prefix":"non-static member functions.  • ","suffix":"  • Virtual member functions are"}]}]}
+>```
+>%%
+>*%%PREFIX%%non-static member functions.  •%%HIGHLIGHT%% ==The 'this' pointer takes up one register. Registers are a scarce resource in 32-bit systems.== %%POSTFIX%%• Virtual member functions are*
+>%%LINK%%[[#^6rtsm3mded|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^6rtsm3mded
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:50:17.409Z","updated":"2023-04-18T00:50:17.409Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":169616,"end":169779},{"type":"TextQuoteSelector","exact":"The data members of a class or structure are stored consecutively in the order in which they are declared whenever an instance of the class or structure is created","prefix":"ta members (instance variables) ","suffix":". There is no performance penalt"}]}]}
+>```
+>%%
+>*%%PREFIX%%ta members (instance variables)%%HIGHLIGHT%% ==The data members of a class or structure are stored consecutively in the order in which they are declared whenever an instance of the class or structure is created== %%POSTFIX%%. There is no performance penalt*
+>%%LINK%%[[#^4r1984dm3iy|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4r1984dm3iy
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:50:46.007Z","updated":"2023-04-18T00:50:46.007Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":169861,"end":169968},{"type":"TextQuoteSelector","exact":"Accessing a data member of a class or structure object takes no more time than accessing a simple variable.","prefix":"ata into classes or structures. ","suffix":"  Most compilers will align data"}]}]}
+>```
+>%%
+>*%%PREFIX%%ata into classes or structures.%%HIGHLIGHT%% ==Accessing a data member of a class or structure object takes no more time than accessing a simple variable.== %%POSTFIX%%Most compilers will align data*
+>%%LINK%%[[#^k3n6w8n3obg|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^k3n6w8n3obg
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:50:57.087Z","updated":"2023-04-18T00:50:57.087Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":169970,"end":170088},{"type":"TextQuoteSelector","exact":"Most compilers will align data members to round addresses in order to optimize access, as given in the following table","prefix":"n accessing a simple variable.  ","suffix":".  Type size, bytes alignment, b"}]}]}
+>```
+>%%
+>*%%PREFIX%%n accessing a simple variable.%%HIGHLIGHT%% ==Most compilers will align data members to round addresses in order to optimize access, as given in the following table== %%POSTFIX%%.  Type size, bytes alignment, b*
+>%%LINK%%[[#^zm4e6fj0l5|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^zm4e6fj0l5
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:52:51.562Z","updated":"2023-04-18T00:52:51.562Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":171523,"end":171609},{"type":"TextQuoteSelector","exact":"This reordering has made the structure 8 bytes smaller and the array 800 bytes smaller","prefix":" }; S1 ArrayOfStructures[100];  ","suffix":".   54 Structure and class objec"}]}]}
+>```
+>%%
+>*%%PREFIX%%}; S1 ArrayOfStructures[100];%%HIGHLIGHT%% ==This reordering has made the structure 8 bytes smaller and the array 800 bytes smaller== %%POSTFIX%%.   54 Structure and class objec*
+>%%LINK%%[[#^oxouj4vmp2|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^oxouj4vmp2
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:54:01.750Z","updated":"2023-04-18T00:54:01.750Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":172145,"end":172356},{"type":"TextQuoteSelector","exact":"The code for accessing a data member is more compact if the offset of the member relative to the beginning of the structure or class is less than 128 because the offset can be expressed as an 8-bit signed number","prefix":"ytes in the end of the object.  ","suffix":". If the offset relative to the "}]}]}
+>```
+>%%
+>*%%PREFIX%%ytes in the end of the object.%%HIGHLIGHT%% ==The code for accessing a data member is more compact if the offset of the member relative to the beginning of the structure or class is less than 128 because the offset can be expressed as an 8-bit signed number== %%POSTFIX%%. If the offset relative to the*
+>%%LINK%%[[#^evbeim7oku4|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^evbeim7oku4
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:55:57.973Z","updated":"2023-04-18T00:55:57.973Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":172779,"end":172929},{"type":"TextQuoteSelector","exact":"The offset of b is 400 here. Any code that accesses b through a pointer or a member function such as ReadB needs to code the offset as a 32-bit number","prefix":"    int ReadB() {return b;} };  ","suffix":". If a and b are swapped then bo"}]}]}
+>```
+>%%
+>*%%PREFIX%%int ReadB() {return b;} };%%HIGHLIGHT%% ==The offset of b is 400 here. Any code that accesses b through a pointer or a member function such as ReadB needs to code the offset as a 32-bit number== %%POSTFIX%%. If a and b are swapped then bo*
+>%%LINK%%[[#^ps1lu42zrmh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ps1lu42zrmh
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:58:08.620Z","updated":"2023-04-18T00:58:08.620Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":173138,"end":173298},{"type":"TextQuoteSelector","exact":" It is therefore recommended that big arrays and other big objects come last in a structure or class declaration and the most often used data members come first","prefix":" cache is used more efficiently.","suffix":". If it is not possible to conta"}]}]}
+>```
+>%%
+>*%%PREFIX%%cache is used more efficiently.%%HIGHLIGHT%% ==It is therefore recommended that big arrays and other big objects come last in a structure or class declaration and the most often used data members come first== %%POSTFIX%%. If it is not possible to conta*
+>%%LINK%%[[#^m0r48pigg4p|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^m0r48pigg4p
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:59:04.038Z","updated":"2023-04-18T00:59:04.038Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":173477,"end":173733},{"type":"TextQuoteSelector","exact":"Each time a new object of a class is declared or created it will generate a new instance of the data members. But each member function has only one instance. The function code is not copied because the same code can be applied to all instances of the class","prefix":"lass member functions (methods) ","suffix":".  Calling a member function is "}]}]}
+>```
+>%%
+>*%%PREFIX%%lass member functions (methods)%%HIGHLIGHT%% ==Each time a new object of a class is declared or created it will generate a new instance of the data members. But each member function has only one instance. The function code is not copied because the same code can be applied to all instances of the class== %%POSTFIX%%.  Calling a member function is*
+>%%LINK%%[[#^x0yevqfr85|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^x0yevqfr85
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T00:59:33.227Z","updated":"2023-04-18T00:59:33.227Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":174030,"end":174134},{"type":"TextQuoteSelector","exact":"The three functions Sum1, Sum2 and Sum3 are doing exactly the same thing and they are equally efficient.","prefix":"(S3 & r) {return  r.a +  r.b;}  ","suffix":" If you look at the code generat"}]}]}
+>```
+>%%
+>*%%PREFIX%%(S3 & r) {return  r.a +  r.b;}%%HIGHLIGHT%% ==The three functions Sum1, Sum2 and Sum3 are doing exactly the same thing and they are equally efficient.== %%POSTFIX%%If you look at the code generat*
+>%%LINK%%[[#^j9tlkufngwk|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^j9tlkufngwk
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:01:19.426Z","updated":"2023-04-18T01:01:19.426Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":174135,"end":174278},{"type":"TextQuoteSelector","exact":"If you look at the code generated by the compiler, you will notice that some compilers will make exactly identical code for the three functions","prefix":"and they are equally efficient. ","suffix":". Sum1 has an implicit 'this' po"}]}]}
+>```
+>%%
+>*%%PREFIX%%and they are equally efficient.%%HIGHLIGHT%% ==If you look at the code generated by the compiler, you will notice that some compilers will make exactly identical code for the three functions== %%POSTFIX%%. Sum1 has an implicit 'this' po*
+>%%LINK%%[[#^w2gvtqu6q6i|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^w2gvtqu6q6i
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:01:35.307Z","updated":"2023-04-18T01:01:35.307Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":174532,"end":174680},{"type":"TextQuoteSelector","exact":"Some compilers make Sum1 slightly more efficient than Sum2 and Sum3 in 32-bit Windows by transferring 'this' in a register rather than on the stack.","prefix":" a matter of programming style. ","suffix":"   55 A static member function c"}]}]}
+>```
+>%%
+>*%%PREFIX%%a matter of programming style.%%HIGHLIGHT%% ==Some compilers make Sum1 slightly more efficient than Sum2 and Sum3 in 32-bit Windows by transferring 'this' in a register rather than on the stack.== %%POSTFIX%%55 A static member function c*
+>%%LINK%%[[#^orwcvx2ynmq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^orwcvx2ynmq
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:01:52.485Z","updated":"2023-04-18T01:01:52.485Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":174686,"end":174783},{"type":"TextQuoteSelector","exact":"A static member function cannot access any non-static data members or non-static member functions","prefix":" rather than on the stack.   55 ","suffix":". A static member function is fa"}]}]}
+>```
+>%%
+>*%%PREFIX%%rather than on the stack.   55%%HIGHLIGHT%% ==A static member function cannot access any non-static data members or non-static member functions== %%POSTFIX%%. A static member function is fa*
+>%%LINK%%[[#^u9dj2nudkxn|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^u9dj2nudkxn
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:02:18.430Z","updated":"2023-04-18T01:02:18.430Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":174899,"end":174999},{"type":"TextQuoteSelector","exact":"You may make member functions faster by making them static if they do not need any non-static access","prefix":"es not need the 'this' pointer. ","suffix":".  7.22 Virtual member functions"}]}]}
+>```
+>%%
+>*%%PREFIX%%es not need the 'this' pointer.%%HIGHLIGHT%% ==You may make member functions faster by making them static if they do not need any non-static access== %%POSTFIX%%.  7.22 Virtual member functions*
+>%%LINK%%[[#^zvvfopwbtdj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^zvvfopwbtdj
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:04:07.743Z","updated":"2023-04-18T01:04:07.743Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":175097,"end":175324},{"type":"TextQuoteSelector","exact":"Each instance of a polymorphic class has a pointer to a table of pointers to the different versions of the virtual functions. This so-called virtual table is used for finding the right version of the virtual function at runtime","prefix":"plementing polymorphic classes. ","suffix":". Polymorphism is one of the mai"}]}]}
+>```
+>%%
+>*%%PREFIX%%plementing polymorphic classes.%%HIGHLIGHT%% ==Each instance of a polymorphic class has a pointer to a table of pointers to the different versions of the virtual functions. This so-called virtual table is used for finding the right version of the virtual function at runtime== %%POSTFIX%%. Polymorphism is one of the mai*
+>%%LINK%%[[#^u7e19mxxwr|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^u7e19mxxwr
