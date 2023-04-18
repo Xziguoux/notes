@@ -2715,3 +2715,158 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^6ygpv22lemm
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:35:20.092Z","updated":"2023-04-18T01:35:20.092Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":183453,"end":183575},{"type":"TextQuoteSelector","exact":"A template is similar to a macro in the sense that the template parameters are replaced by their values before compilation","prefix":"n simple cases.  7.30 Templates ","suffix":". The following example illustra"}]}]}
+>```
+>%%
+>*%%PREFIX%%n simple cases.  7.30 Templates%%HIGHLIGHT%% ==A template is similar to a macro in the sense that the template parameters are replaced by their values before compilation== %%POSTFIX%%. The following example illustra*
+>%%LINK%%[[#^33g7onhwaj6|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^33g7onhwaj6
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:37:47.879Z","updated":"2023-04-18T01:37:47.879Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":184206,"end":184328},{"type":"TextQuoteSelector","exact":"The advantage of using a template parameter rather than a function parameter is that the overhead of parameter transfer is","prefix":"t 8 rather than the variable m. ","suffix":"  59 avoided. The disadvantage i"}]}]}
+>```
+>%%
+>*%%PREFIX%%t 8 rather than the variable m.%%HIGHLIGHT%% ==The advantage of using a template parameter rather than a function parameter is that the overhead of parameter transfer is== %%POSTFIX%%59 avoided. The disadvantage i*
+>%%LINK%%[[#^j4ft1b3vg7|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^j4ft1b3vg7
+
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:39:41.132Z","updated":"2023-04-18T01:39:41.132Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":184342,"end":184484},{"type":"TextQuoteSelector","exact":"The disadvantage is that the compiler needs to make a new instance of the template function for each different value of the template parameter","prefix":"ameter transfer is  59 avoided. ","suffix":". If MultiplyBy in this example "}]}]}
+>```
+>%%
+>*%%PREFIX%%ameter transfer is  59 avoided.%%HIGHLIGHT%% ==The disadvantage is that the compiler needs to make a new instance of the template function for each different value of the template parameter== %%POSTFIX%%. If MultiplyBy in this example*
+>%%LINK%%[[#^0k1c7aphkza5|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^0k1c7aphkza5
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:40:06.075Z","updated":"2023-04-18T01:40:06.075Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":184485,"end":184610},{"type":"TextQuoteSelector","exact":" If MultiplyBy in this example is called with many different factors as template parameters then the code can become very big","prefix":"value of the template parameter.","suffix":".  In the above example, the tem"}]}]}
+>```
+>%%
+>*%%PREFIX%%value of the template parameter.%%HIGHLIGHT%% ==If MultiplyBy in this example is called with many different factors as template parameters then the code can become very big== %%POSTFIX%%.  In the above example, the tem*
+>%%LINK%%[[#^bzy2ua05xcm|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^bzy2ua05xcm
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:40:26.844Z","updated":"2023-04-18T01:40:26.844Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":184330,"end":184332},{"type":"TextQuoteSelector","exact":"59","prefix":"rhead of parameter transfer is  ","suffix":" avoided. The disadvantage is th"}]}]}
+>```
+>%%
+>*%%PREFIX%%rhead of parameter transfer is%%HIGHLIGHT%% ==59== %%POSTFIX%%avoided. The disadvantage is th*
+>%%LINK%%[[#^l4z1hjbvrr|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^l4z1hjbvrr
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:44:34.634Z","updated":"2023-04-18T01:44:34.634Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":185292,"end":185533},{"type":"TextQuoteSelector","exact":"Templates are efficient because the template parameters are always resolved at compile time. Templates make the source code more complex, but not the compiled code. In general, there is no cost in terms of execution speed to using templates.","prefix":" types with the same template.  ","suffix":"  Two or more template instances"}]}]}
+>```
+>%%
+>*%%PREFIX%%types with the same template.%%HIGHLIGHT%% ==Templates are efficient because the template parameters are always resolved at compile time. Templates make the source code more complex, but not the compiled code. In general, there is no cost in terms of execution speed to using templates.== %%POSTFIX%%Two or more template instances*
+>%%LINK%%[[#^gbyt5zojqag|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^gbyt5zojqag
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:46:22.913Z","updated":"2023-04-18T01:46:22.913Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":185741,"end":185825},{"type":"TextQuoteSelector","exact":"A template with many instances makes the compiled code big and uses more cache space","prefix":"ach set of template parameters. ","suffix":".  Excessive use of templates ma"}]}]}
+>```
+>%%
+>*%%PREFIX%%ach set of template parameters.%%HIGHLIGHT%% ==A template with many instances makes the compiled code big and uses more cache space== %%POSTFIX%%.  Excessive use of templates ma*
+>%%LINK%%[[#^zr9q5xeruy|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^zr9q5xeruy
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:46:49.809Z","updated":"2023-04-18T01:46:49.809Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":185828,"end":186010},{"type":"TextQuoteSelector","exact":"Excessive use of templates makes the code difficult to read. If a template has only one instance then you may as well use a #define, const or typedef instead of a template parameter.","prefix":"big and uses more cache space.  ","suffix":"  Templates may be used for meta"}]}]}
+>```
+>%%
+>*%%PREFIX%%big and uses more cache space.%%HIGHLIGHT%% ==Excessive use of templates makes the code difficult to read. If a template has only one instance then you may as well use a #define, const or typedef instead of a template parameter.== %%POSTFIX%%Templates may be used for meta*
+>%%LINK%%[[#^v9qwehmnl0f|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^v9qwehmnl0f
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:47:05.893Z","updated":"2023-04-18T01:47:05.893Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":186114,"end":186187},{"type":"TextQuoteSelector","exact":"A template class can be used for implementing a compile-time polymorphism","prefix":"sing templates for polymorphism ","suffix":", which is more efficient than t"}]}]}
+>```
+>%%
+>*%%PREFIX%%sing templates for polymorphism%%HIGHLIGHT%% ==A template class can be used for implementing a compile-time polymorphism== %%POSTFIX%%, which is more efficient than t*
+>%%LINK%%[[#^yy659tyyf1i|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^yy659tyyf1i
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:48:24.219Z","updated":"2023-04-18T01:48:24.219Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":187083,"end":187228},{"type":"TextQuoteSelector","exact":"The dispatching to C1::Disp() or C2::Disp() is done at runtime here if the compiler does not know what class of object p points to (see page 76).","prefix":"         // Writes \"Hello 2\" }  ","suffix":" The best compilers may be able "}]}]}
+>```
+>%%
+>*%%PREFIX%%// Writes "Hello 2" }%%HIGHLIGHT%% ==The dispatching to C1::Disp() or C2::Disp() is done at runtime here if the compiler does not know what class of object p points to (see page 76).== %%POSTFIX%%The best compilers may be able*
+>%%LINK%%[[#^h7m46hp4197|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^h7m46hp4197
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-18T01:52:25.185Z","updated":"2023-04-18T01:52:25.185Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":188637,"end":188743},{"type":"TextQuoteSelector","exact":"Here CParent is a template class which gets information about its child class through a template parameter","prefix":"     // Writes \"Hello 2\" }  61  ","suffix":". It can call the polymorphic me"}]}]}
+>```
+>%%
+>*%%PREFIX%%// Writes "Hello 2" }  61%%HIGHLIGHT%% ==Here CParent is a template class which gets information about its child class through a template parameter== %%POSTFIX%%. It can call the polymorphic me*
+>%%LINK%%[[#^kuvee03lqbp|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kuvee03lqbp
