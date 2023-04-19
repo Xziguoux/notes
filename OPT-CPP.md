@@ -3094,3 +3094,228 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^h1h8h5s8gvk
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:08:09.556Z","updated":"2023-04-19T01:08:09.556Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":202135,"end":202209},{"type":"TextQuoteSelector","exact":"Vector instructions are useful for doing multiple calculations in parallel","prefix":"lt.  Exceptions and vector code ","suffix":". This is described in chapter 1"}]}]}
+>```
+>%%
+>*%%PREFIX%%lt.  Exceptions and vector code%%HIGHLIGHT%% ==Vector instructions are useful for doing multiple calculations in parallel== %%POSTFIX%%. This is described in chapter 1*
+>%%LINK%%[[#^d3bu88qtbs|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^d3bu88qtbs
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:08:25.579Z","updated":"2023-04-19T01:08:25.579Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":202250,"end":202411},{"type":"TextQuoteSelector","exact":"Exception handling does not work well with vector code because a single element in a vector may cause an exception while perhaps the other vector elements do not","prefix":" described in chapter 12 below. ","suffix":". You may even generate an excep"}]}]}
+>```
+>%%
+>*%%PREFIX%%described in chapter 12 below.%%HIGHLIGHT%% ==Exception handling does not work well with vector code because a single element in a vector may cause an exception while perhaps the other vector elements do not== %%POSTFIX%%. You may even generate an excep*
+>%%LINK%%[[#^1islebgsc58|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^1islebgsc58
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:11:12.899Z","updated":"2023-04-19T01:11:12.899Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":202530,"end":202685},{"type":"TextQuoteSelector","exact":"If the code can benefit from vector instructions then it is better to disable the trapping of exceptions and rely on the propagation of NAN and INF instead","prefix":"are implemented in vector code. ","suffix":". See chapter 7.34 below. This i"}]}]}
+>```
+>%%
+>*%%PREFIX%%are implemented in vector code.%%HIGHLIGHT%% ==If the code can benefit from vector instructions then it is better to disable the trapping of exceptions and rely on the propagation of NAN and INF instead== %%POSTFIX%%. See chapter 7.34 below. This i*
+>%%LINK%%[[#^kdoeld3h6el|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kdoeld3h6el
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:12:42.327Z","updated":"2023-04-19T01:12:42.327Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":203071,"end":203202},{"type":"TextQuoteSelector","exact":"It is more efficient to define your own error-handling function that simply prints an appropriate error message and then calls exit","prefix":"n to use try, catch, and throw. ","suffix":".  Calling exit may not be safe "}]}]}
+>```
+>%%
+>*%%PREFIX%%n to use try, catch, and throw.%%HIGHLIGHT%% ==It is more efficient to define your own error-handling function that simply prints an appropriate error message and then calls exit== %%POSTFIX%%.  Calling exit may not be safe*
+>%%LINK%%[[#^vf05obatry|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^vf05obatry
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:13:41.766Z","updated":"2023-04-19T01:13:41.766Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":203540,"end":203630},{"type":"TextQuoteSelector","exact":"It is recommended to use a systematic and well thought-through approach to error handling.","prefix":"for issuing an error message.   ","suffix":" You have to distinguish between"}]}]}
+>```
+>%%
+>*%%PREFIX%%for issuing an error message.%%HIGHLIGHT%% ==It is recommended to use a systematic and well thought-through approach to error handling.== %%POSTFIX%%You have to distinguish between*
+>%%LINK%%[[#^6qolm1r1prv|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^6qolm1r1prv
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:14:13.183Z","updated":"2023-04-19T01:14:13.183Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":203631,"end":203816},{"type":"TextQuoteSelector","exact":"You have to distinguish between recoverable and non-recoverable errors; make sure allocated resources are cleaned up in case of an error; and make appropriate error messages to the user","prefix":"ugh approach to error handling. ","suffix":". Making exception-safe code Ass"}]}]}
+>```
+>%%
+>*%%PREFIX%%ugh approach to error handling.%%HIGHLIGHT%% ==You have to distinguish between recoverable and non-recoverable errors; make sure allocated resources are cleaned up in case of an error; and make appropriate error messages to the user== %%POSTFIX%%. Making exception-safe code Ass*
+>%%LINK%%[[#^zubbat5a2ee|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^zubbat5a2ee
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:15:11.432Z","updated":"2023-04-19T01:15:11.432Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":204188,"end":204289},{"type":"TextQuoteSelector","exact":"In other words, the program must clean up everything in case of an exception or other error condition","prefix":"ke your program exception safe. ","suffix":". Things that may need to be cle"}]}]}
+>```
+>%%
+>*%%PREFIX%%ke your program exception safe.%%HIGHLIGHT%% ==In other words, the program must clean up everything in case of an exception or other error condition== %%POSTFIX%%. Things that may need to be cle*
+>%%LINK%%[[#^qzd35mi1ase|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^qzd35mi1ase
+
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:15:46.188Z","updated":"2023-04-19T01:15:46.188Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":203973,"end":204110},{"type":"TextQuoteSelector","exact":"The file will remain locked after the program is terminated and the user will be unable to access the file until the computer is rebooted","prefix":"gram before the file is closed. ","suffix":". To prevent this kind of proble"}]}]}
+>```
+>%%
+>*%%PREFIX%%gram before the file is closed.%%HIGHLIGHT%% ==The file will remain locked after the program is terminated and the user will be unable to access the file until the computer is rebooted== %%POSTFIX%%. To prevent this kind of proble*
+>%%LINK%%[[#^40sxla6ey1r|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^40sxla6ey1r
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:16:20.052Z","updated":"2023-04-19T01:16:20.052Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":204644,"end":204704},{"type":"TextQuoteSelector","exact":"The C++ way of handling cleanup jobs is to make a destructor","prefix":" Any other allocated resource.  ","suffix":". A function that reads or write"}]}]}
+>```
+>%%
+>*%%PREFIX%%Any other allocated resource.%%HIGHLIGHT%% ==The C++ way of handling cleanup jobs is to make a destructor== %%POSTFIX%%. A function that reads or write*
+>%%LINK%%[[#^38al0sv0ggc|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^38al0sv0ggc
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:16:30.638Z","updated":"2023-04-19T01:16:30.638Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":204706,"end":204825},{"type":"TextQuoteSelector","exact":"A function that reads or writes a file can be wrapped into a class with a destructor that makes sure the file is closed","prefix":"p jobs is to make a destructor. ","suffix":". The same method can be used fo"}]}]}
+>```
+>%%
+>*%%PREFIX%%p jobs is to make a destructor.%%HIGHLIGHT%% ==A function that reads or writes a file can be wrapped into a class with a destructor that makes sure the file is closed== %%POSTFIX%%. The same method can be used fo*
+>%%LINK%%[[#^dg359ru5kfr|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^dg359ru5kfr
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:17:07.575Z","updated":"2023-04-19T01:17:07.575Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":204963,"end":205258},{"type":"TextQuoteSelector","exact":"The C++ exception handling system makes sure that all destructors for local objects are called. The program is exception safe if there are wrapper classes with destructors to take care of all cleanup of allocated resources. The system is likely to fail if the destructor causes another exception","prefix":"es, database connections, etc.  ","suffix":".  If you make your own error ha"}]}]}
+>```
+>%%
+>*%%PREFIX%%es, database connections, etc.%%HIGHLIGHT%% ==The C++ exception handling system makes sure that all destructors for local objects are called. The program is exception safe if there are wrapper classes with destructors to take care of all cleanup of allocated resources. The system is likely to fail if the destructor causes another exception== %%POSTFIX%%.  If you make your own error ha*
+>%%LINK%%[[#^q4pl1uui5r|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^q4pl1uui5r
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:20:22.785Z","updated":"2023-04-19T01:20:22.785Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":206641,"end":206832},{"type":"TextQuoteSelector","exact":"The stack unwinding mechanism is also used when the function longjmp is used for jumping out of a function. Avoid the use of longjmp if possible. Do not rely on longjmp in time-critical code.","prefix":"r is implementation dependent.  ","suffix":"  7.34 Propagation of NAN and IN"}]}]}
+>```
+>%%
+>*%%PREFIX%%r is implementation dependent.%%HIGHLIGHT%% ==The stack unwinding mechanism is also used when the function longjmp is used for jumping out of a function. Avoid the use of longjmp if possible. Do not rely on longjmp in time-critical code.== %%POSTFIX%%7.34 Propagation of NAN and IN*
+>%%LINK%%[[#^2gz5gb4217p|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^2gz5gb4217p
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:20:40.123Z","updated":"2023-04-19T01:20:40.123Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":206866,"end":207033},{"type":"TextQuoteSelector","exact":"Floating point errors will propagate to the end result of a series of calculations in most cases. This is a very efficient alternative to exceptions and fault trapping","prefix":"7.34 Propagation of NAN and INF ","suffix":".   Floating point overflow and "}]}]}
+>```
+>%%
+>*%%PREFIX%%7.34 Propagation of NAN and INF%%HIGHLIGHT%% ==Floating point errors will propagate to the end result of a series of calculations in most cases. This is a very efficient alternative to exceptions and fault trapping== %%POSTFIX%%.   Floating point overflow and*
+>%%LINK%%[[#^bb18kfl6ikk|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^bb18kfl6ikk
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:21:46.337Z","updated":"2023-04-19T01:21:46.337Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":207564,"end":207740},{"type":"TextQuoteSelector","exact":"Most operations with a NAN input will give a NAN output, so that the NAN will propagate to the end result. This is a simple and efficient way of detecting floating point errors","prefix":" such as sqrt(-1) and log(-1).  ","suffix":". Almost all floating point erro"}]}]}
+>```
+>%%
+>*%%PREFIX%%such as sqrt(-1) and log(-1).%%HIGHLIGHT%% ==Most operations with a NAN input will give a NAN output, so that the NAN will propagate to the end result. This is a simple and efficient way of detecting floating point errors== %%POSTFIX%%. Almost all floating point erro*
+>%%LINK%%[[#^uq8sclelae|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^uq8sclelae
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:25:47.161Z","updated":"2023-04-19T01:25:47.161Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":207916,"end":208030},{"type":"TextQuoteSelector","exact":"No extra code is needed to keep track of the errors, and there is no extra cost to the propagation of INF and NAN.","prefix":"INF or NAN instead of a number. ","suffix":"  A NAN can contain a payload wi"}]}]}
+>```
+>%%
+>*%%PREFIX%%INF or NAN instead of a number.%%HIGHLIGHT%% ==No extra code is needed to keep track of the errors, and there is no extra cost to the propagation of INF and NAN.== %%POSTFIX%%A NAN can contain a payload wi*
+>%%LINK%%[[#^h0fzm6inad4|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^h0fzm6inad4
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:26:49.577Z","updated":"2023-04-19T01:26:49.577Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":208217,"end":208340},{"type":"TextQuoteSelector","exact":"The function finite() will return false when the parameter is INF or NAN, and true if it is a normal floating point number.","prefix":" propagate to the end result.   ","suffix":" This can be used for detecting "}]}]}
+>```
+>%%
+>*%%PREFIX%%propagate to the end result.%%HIGHLIGHT%% ==The function finite() will return false when the parameter is INF or NAN, and true if it is a normal floating point number.== %%POSTFIX%%This can be used for detecting*
+>%%LINK%%[[#^ski12k807jo|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ski12k807jo
