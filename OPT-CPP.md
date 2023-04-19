@@ -3319,3 +3319,31 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^ski12k807jo
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:27:50.788Z","updated":"2023-04-19T01:27:50.788Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":209157,"end":209259},{"type":"TextQuoteSelector","exact":" #if is more efficient than if because #if is resolved at compile time while if is resolved at runtime","prefix":"tions with the same source code.","suffix":".  #define directives are equiva"}]}]}
+>```
+>%%
+>*%%PREFIX%%tions with the same source code.%%HIGHLIGHT%% ==#if is more efficient than if because #if is resolved at compile time while if is resolved at runtime== %%POSTFIX%%.  #define directives are equiva*
+>%%LINK%%[[#^u915cii20rh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^u915cii20rh
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T01:28:47.093Z","updated":"2023-04-19T01:28:47.093Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":209522,"end":209736},{"type":"TextQuoteSelector","exact":"However, the const int declaration may in some cases take memory space where a #define directive never takes memory space. A floating point constant always takes memory space, even when it has not been given a name","prefix":"nteger constant with its value. ","suffix":".  #define directives when used "}]}]}
+>```
+>%%
+>*%%PREFIX%%nteger constant with its value.%%HIGHLIGHT%% ==However, the const int declaration may in some cases take memory space where a #define directive never takes memory space. A floating point constant always takes memory space, even when it has not been given a name== %%POSTFIX%%.  #define directives when used*
+>%%LINK%%[[#^ropfom11q2|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ropfom11q2
