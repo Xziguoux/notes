@@ -2884,3 +2884,213 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^r7nntj73rc
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:28:16.651Z","updated":"2023-04-19T00:28:16.651Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":194088,"end":194212},{"type":"TextQuoteSelector","exact":"Exception handling is intended for detecting errors that seldom occur and recovering from error conditions in a graceful way","prefix":"d there is no try-catch block.  ","suffix":". You may think that exception h"}]}]}
+>```
+>%%
+>*%%PREFIX%%d there is no try-catch block.%%HIGHLIGHT%% ==Exception handling is intended for detecting errors that seldom occur and recovering from error conditions in a graceful way== %%POSTFIX%%. You may think that exception h*
+>%%LINK%%[[#^mx7z6gvbk6|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^mx7z6gvbk6
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:28:43.965Z","updated":"2023-04-19T00:28:43.965Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":194214,"end":194459},{"type":"TextQuoteSelector","exact":"You may think that exception handling takes no extra time as long as the error does not occur, but unfortunately this is not always true. The program may have to do a lot of bookkeeping in order to know how to recover in the event of an exceptio","prefix":"r conditions in a graceful way. ","suffix":"n. The costs of this bookkeeping"}]}]}
+>```
+>%%
+>*%%PREFIX%%r conditions in a graceful way.%%HIGHLIGHT%% ==You may think that exception handling takes no extra time as long as the error does not occur, but unfortunately this is not always true. The program may have to do a lot of bookkeeping in order to know how to recover in the event of an exceptio== %%POSTFIX%%n. The costs of this bookkeeping*
+>%%LINK%%[[#^25e20cf0gnr|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^25e20cf0gnr
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:32:07.411Z","updated":"2023-04-19T00:32:07.411Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":195516,"end":195844},{"type":"TextQuoteSelector","exact":"If F1 calls another function which in turn calls another function, etc., and if an exception occurs in the innermost function, then the exception handler needs all information about the chain of function calls and it needs to follow the track backwards though the function calls to check for all the necessary cleanup jobs to do","prefix":" cleanup that may be necessary. ","suffix":". This is called stack unwinding"}]}]}
+>```
+>%%
+>*%%PREFIX%%cleanup that may be necessary.%%HIGHLIGHT%% ==If F1 calls another function which in turn calls another function, etc., and if an exception occurs in the innermost function, then the exception handler needs all information about the chain of function calls and it needs to follow the track backwards though the function calls to check for all the necessary cleanup jobs to do== %%POSTFIX%%. This is called stack unwinding*
+>%%LINK%%[[#^vr43s6i64aj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^vr43s6i64aj
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:32:13.508Z","updated":"2023-04-19T00:32:13.508Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":195846,"end":195877},{"type":"TextQuoteSelector","exact":"This is called stack unwinding.","prefix":"e necessary cleanup jobs to do. ","suffix":"  All functions have to save som"}]}]}
+>```
+>%%
+>*%%PREFIX%%e necessary cleanup jobs to do.%%HIGHLIGHT%% ==This is called stack unwinding.== %%POSTFIX%%All functions have to save som*
+>%%LINK%%[[#^xw0bquf5sw9|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^xw0bquf5sw9
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:40:35.490Z","updated":"2023-04-19T00:40:35.490Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":196062,"end":196203},{"type":"TextQuoteSelector","exact":" If exception handling is not necessary for your application then you should disable it in order to make the code smaller and more efficient.","prefix":" be expensive in some compilers.","suffix":" You can disable exception handl"}]}]}
+>```
+>%%
+>*%%PREFIX%%be expensive in some compilers.%%HIGHLIGHT%% ==If exception handling is not necessary for your application then you should disable it in order to make the code smaller and more efficient.== %%POSTFIX%%You can disable exception handl*
+>%%LINK%%[[#^niafl66sdie|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^niafl66sdie
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:40:39.850Z","updated":"2023-04-19T00:40:39.850Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":195985,"end":196061},{"type":"TextQuoteSelector","exact":"This is the reason why exception handling can be expensive in some compilers","prefix":"n if no exception ever happens. ","suffix":". If exception handling is not n"}]}]}
+>```
+>%%
+>*%%PREFIX%%n if no exception ever happens.%%HIGHLIGHT%% ==This is the reason why exception handling can be expensive in some compilers== %%POSTFIX%%. If exception handling is not n*
+>%%LINK%%[[#^za0nk1mnfh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^za0nk1mnfh
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:41:36.988Z","updated":"2023-04-19T00:41:36.988Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":196323,"end":196425},{"type":"TextQuoteSelector","exact":"You can disable exception handling for a single function by adding throw() to the function prototype: ","prefix":"andling option in the compiler. ","suffix":" void F1() throw();  This allows"}]}]}
+>```
+>%%
+>*%%PREFIX%%andling option in the compiler.%%HIGHLIGHT%% ==You can disable exception handling for a single function by adding throw() to the function prototype:== %%POSTFIX%%void F1() throw();  This allows*
+>%%LINK%%[[#^986xzxejbkf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^986xzxejbkf
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:42:40.733Z","updated":"2023-04-19T00:42:40.733Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":196942,"end":197004},{"type":"TextQuoteSelector","exact":"The empty throw()specification is useful for library functions","prefix":"an empty throw() specification. ","suffix":".  The compiler makes a distinct"}]}]}
+>```
+>%%
+>*%%PREFIX%%an empty throw() specification.%%HIGHLIGHT%% ==The empty throw()specification is useful for library functions== %%POSTFIX%%.  The compiler makes a distinct*
+>%%LINK%%[[#^s33bftx8fo|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^s33bftx8fo
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:42:58.482Z","updated":"2023-04-19T00:42:58.482Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":197007,"end":197153},{"type":"TextQuoteSelector","exact":"The compiler makes a distinction between leaf functions and frame functions. A frame function is a function that calls at least one other function","prefix":" useful for library functions.  ","suffix":". A leaf function is a function "}]}]}
+>```
+>%%
+>*%%PREFIX%%useful for library functions.%%HIGHLIGHT%% ==The compiler makes a distinction between leaf functions and frame functions. A frame function is a function that calls at least one other function== %%POSTFIX%%. A leaf function is a function*
+>%%LINK%%[[#^m5yt8dk0nrq|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^m5yt8dk0nrq
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:50:54.477Z","updated":"2023-04-19T00:50:54.477Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":197155,"end":197222},{"type":"TextQuoteSelector","exact":"A leaf function is a function that does not call any other function","prefix":"ls at least one other function. ","suffix":". A leaf function is simpler tha"}]}]}
+>```
+>%%
+>*%%PREFIX%%ls at least one other function.%%HIGHLIGHT%% ==A leaf function is a function that does not call any other function== %%POSTFIX%%. A leaf function is simpler tha*
+>%%LINK%%[[#^bfxxr9hoorr|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^bfxxr9hoorr
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:51:28.357Z","updated":"2023-04-19T00:51:28.357Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":197517,"end":197631},{"type":"TextQuoteSelector","exact":"The best performance is obtained if the critical innermost loop of a program contains no calls to frame functions.","prefix":"ll the functions that it calls. ","suffix":"  While an empty throw() stateme"}]}]}
+>```
+>%%
+>*%%PREFIX%%ll the functions that it calls.%%HIGHLIGHT%% ==The best performance is obtained if the critical innermost loop of a program contains no calls to frame functions.== %%POSTFIX%%While an empty throw() stateme*
+>%%LINK%%[[#^21uspi7337q|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^21uspi7337q
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:52:43.268Z","updated":"2023-04-19T00:52:43.268Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":198028,"end":198128},{"type":"TextQuoteSelector","exact":"In some cases, it is optimal to use exception handling even in the most critical part of a program. ","prefix":"ions, Dr Dobbs Journal, 2002).  ","suffix":"This is the case if alternative "}]}]}
+>```
+>%%
+>*%%PREFIX%%ions, Dr Dobbs Journal, 2002).%%HIGHLIGHT%% ==In some cases, it is optimal to use exception handling even in the most critical part of a program.== %%POSTFIX%%This is the case if alternative*
+>%%LINK%%[[#^n37bl980s5|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^n37bl980s5
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:52:54.336Z","updated":"2023-04-19T00:52:54.336Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":198129,"end":198241},{"type":"TextQuoteSelector","exact":"his is the case if alternative implementations are less efficient and you want to be able to recover from errors","prefix":"st critical part of a program. T","suffix":". The following example illustra"}]}]}
+>```
+>%%
+>*%%PREFIX%%st critical part of a program. T%%HIGHLIGHT%% ==his is the case if alternative implementations are less efficient and you want to be able to recover from errors== %%POSTFIX%%. The following example illustra*
+>%%LINK%%[[#^hyddzin3azt|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^hyddzin3azt
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:54:51.525Z","updated":"2023-04-19T00:54:51.525Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":199952,"end":200121},{"type":"TextQuoteSelector","exact":"hough this only happens rarely. The above code will catch an exception in case of overflow and redo the calculation in a way that takes more time but avoids the overflow","prefix":" the multiplication b[i]*c[i], t","suffix":". Taking the logarithm of each f"}]}]}
+>```
+>%%
+>*%%PREFIX%%the multiplication b[i]*c[i], t%%HIGHLIGHT%% ==hough this only happens rarely. The above code will catch an exception in case of overflow and redo the calculation in a way that takes more time but avoids the overflow== %%POSTFIX%%. Taking the logarithm of each f*
+>%%LINK%%[[#^nt7932oh7j|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^nt7932oh7j
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:56:36.473Z","updated":"2023-04-19T00:56:36.473Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":200990,"end":201050},{"type":"TextQuoteSelector","exact":"There is a portability issue to catching hardware exceptions","prefix":"m if there is a try block.  65  ","suffix":". The mechanism relies on non-st"}]}]}
+>```
+>%%
+>*%%PREFIX%%m if there is a try block.  65%%HIGHLIGHT%% ==There is a portability issue to catching hardware exceptions== %%POSTFIX%%. The mechanism relies on non-st*
+>%%LINK%%[[#^h1h8h5s8gvk|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^h1h8h5s8gvk
