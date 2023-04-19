@@ -11,11 +11,9 @@
             "id": "04fae6d939edb6b2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "OPT-CPP.md",
-                "mode": "source",
-                "source": false
+                "file": "OPT-CPP.md"
               }
             }
           }

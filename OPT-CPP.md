@@ -2870,3 +2870,17 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^kuvee03lqbp
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-19T00:26:51.826Z","updated":"2023-04-19T00:26:51.826Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":189364,"end":189561},{"type":"TextQuoteSelector","exact":"The third generations classes contain the different versions of the polymorphic functions. The second generation class gets information about the third generation class through a template parameter","prefix":"to call a polymorphic function. ","suffix":".  No time is wasted on runtime "}]}]}
+>```
+>%%
+>*%%PREFIX%%to call a polymorphic function.%%HIGHLIGHT%% ==The third generations classes contain the different versions of the polymorphic functions. The second generation class gets information about the third generation class through a template parameter== %%POSTFIX%%.  No time is wasted on runtime*
+>%%LINK%%[[#^r7nntj73rc|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^r7nntj73rc
