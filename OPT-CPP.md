@@ -3347,3 +3347,143 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^ropfom11q2
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-20T09:36:58.092Z","updated":"2023-04-20T09:36:58.092Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":209997,"end":210088},{"type":"TextQuoteSelector","exact":"Modern compilers can do a lot of modifications to the code in order to improve performance.","prefix":"iler 8.1 How compilers optimize ","suffix":" It is useful for the programmer"}]}]}
+>```
+>%%
+>*%%PREFIX%%iler 8.1 How compilers optimize%%HIGHLIGHT%% ==Modern compilers can do a lot of modifications to the code in order to improve performance.== %%POSTFIX%%It is useful for the programmer*
+>%%LINK%%[[#^uw5hkadivr|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^uw5hkadivr
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-20T09:37:03.264Z","updated":"2023-04-20T09:37:03.264Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":210089,"end":210175},{"type":"TextQuoteSelector","exact":"It is useful for the programmer to know what the compiler can do and what it cannot do","prefix":"n order to improve performance. ","suffix":". The following sections describ"}]}]}
+>```
+>%%
+>*%%PREFIX%%n order to improve performance.%%HIGHLIGHT%% ==It is useful for the programmer to know what the compiler can do and what it cannot do== %%POSTFIX%%. The following sections describ*
+>%%LINK%%[[#^k7x1yrspvv|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^k7x1yrspvv
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-20T09:37:46.865Z","updated":"2023-04-20T09:37:46.865Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":210665,"end":210704},{"type":"TextQuoteSelector","exact":"The advantages of function inlining are","prefix":" x) {    return x * x + 1.0f;}  ","suffix":":  • The overhead of call and re"}]}]}
+>```
+>%%
+>*%%PREFIX%%x) {    return x * x + 1.0f;}%%HIGHLIGHT%% ==The advantages of function inlining are== %%POSTFIX%%:  • The overhead of call and re*
+>%%LINK%%[[#^g4vvbrm093t|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^g4vvbrm093t
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-20T09:39:32.656Z","updated":"2023-04-20T09:39:32.656Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":211166,"end":211279},{"type":"TextQuoteSelector","exact":"The compiler is more likely to inline a function if it is small or if it is called from only one or a few places.","prefix":"nction and the function is big. ","suffix":" Constant folding and constant p"}]}]}
+>```
+>%%
+>*%%PREFIX%%nction and the function is big.%%HIGHLIGHT%% ==The compiler is more likely to inline a function if it is small or if it is called from only one or a few places.== %%POSTFIX%%Constant folding and constant p*
+>%%LINK%%[[#^n9xjwchcy2h|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^n9xjwchcy2h
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-20T09:41:40.627Z","updated":"2023-04-20T09:41:40.627Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":212224,"end":212383},{"type":"TextQuoteSelector","exact":"Constant folding and constant propagation is not possible if the expression contains a function which cannot be inlined or cannot be calculated at compile time","prefix":"e 8.3b  69 a = 5.0f; b = 6.0f;  ","suffix":". For example:  // Example 8.4 d"}]}]}
+>```
+>%%
+>*%%PREFIX%%e 8.3b  69 a = 5.0f; b = 6.0f;%%HIGHLIGHT%% ==Constant folding and constant propagation is not possible if the expression contains a function which cannot be inlined or cannot be calculated at compile time== %%POSTFIX%%. For example:  // Example 8.4 d*
+>%%LINK%%[[#^di4y56q53hh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^di4y56q53hh
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-20T09:42:30.186Z","updated":"2023-04-20T09:42:30.186Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":212774,"end":212848},{"type":"TextQuoteSelector","exact":"A pointer or reference can be eliminated if the target pointed to is known","prefix":"s like sin. Pointer elimination ","suffix":". Example:  // Example 8.5a void"}]}]}
+>```
+>%%
+>*%%PREFIX%%s like sin. Pointer elimination%%HIGHLIGHT%% ==A pointer or reference can be eliminated if the target pointed to is known== %%POSTFIX%%. Example:  // Example 8.5a void*
+>%%LINK%%[[#^6n8fvnhj1od|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^6n8fvnhj1od
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-20T09:42:54.141Z","updated":"2023-04-20T09:42:54.141Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":213028,"end":213120},{"type":"TextQuoteSelector","exact":"If the same subexpression occurs more than once then the compiler may calculate it only once","prefix":"ommon subexpression elimination ","suffix":". Example:  // Example 8.6a int "}]}]}
+>```
+>%%
+>*%%PREFIX%%ommon subexpression elimination%%HIGHLIGHT%% ==If the same subexpression occurs more than once then the compiler may calculate it only once== %%POSTFIX%%. Example:  // Example 8.6a int*
+>%%LINK%%[[#^kcmoa3x58l|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^kcmoa3x58l
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-20T09:43:36.172Z","updated":"2023-04-20T09:43:36.172Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":213854,"end":214038},{"type":"TextQuoteSelector","exact":"The compiler will choose the variables that are used most for register variables. Typical candidates for register variables are local variables, temporary intermediates, loop counters,","prefix":"r) instruction set is enabled.  ","suffix":"  70 function parameters, pointe"}]}]}
+>```
+>%%
+>*%%PREFIX%%r) instruction set is enabled.%%HIGHLIGHT%% ==The compiler will choose the variables that are used most for register variables. Typical candidates for register variables are local variables, temporary intermediates, loop counters,== %%POSTFIX%%70 function parameters, pointe*
+>%%LINK%%[[#^6774dbo4uxk|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^6774dbo4uxk
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-20T09:43:49.589Z","updated":"2023-04-20T09:43:49.589Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":214043,"end":214160},{"type":"TextQuoteSelector","exact":"function parameters, pointers, references, 'this' pointer, common subexpressions, and induction variables (see below)","prefix":"termediates, loop counters,  70 ","suffix":".  A variable cannot be stored i"}]}]}
+>```
+>%%
+>*%%PREFIX%%termediates, loop counters,  70%%HIGHLIGHT%% ==function parameters, pointers, references, 'this' pointer, common subexpressions, and induction variables (see below)== %%POSTFIX%%.  A variable cannot be stored i*
+>%%LINK%%[[#^w0fhtbkjs5g|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^w0fhtbkjs5g
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-20T09:45:35.483Z","updated":"2023-04-20T09:45:35.483Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":214163,"end":214391},{"type":"TextQuoteSelector","exact":"A variable cannot be stored in a register if its address is taken, i.e. if there is a pointer or reference to it. Therefore, you should avoid making any pointer or reference to a variable that could benefit from register storage","prefix":"duction variables (see below).  ","suffix":". Live range analysis The live r"}]}]}
+>```
+>%%
+>*%%PREFIX%%duction variables (see below).%%HIGHLIGHT%% ==A variable cannot be stored in a register if its address is taken, i.e. if there is a pointer or reference to it. Therefore, you should avoid making any pointer or reference to a variable that could benefit from register storage== %%POSTFIX%%. Live range analysis The live r*
+>%%LINK%%[[#^7xuvftvlssj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^7xuvftvlssj
