@@ -3487,3 +3487,45 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^7xuvftvlssj
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-21T00:18:34.963Z","updated":"2023-04-21T00:18:34.963Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":215343,"end":215366},{"type":"TextQuoteSelector","exact":"Join identical branches","prefix":"cts share the same memory area. ","suffix":" The code can be made more compa"}]}]}
+>```
+>%%
+>*%%PREFIX%%cts share the same memory area.%%HIGHLIGHT%% ==Join identical branches== %%POSTFIX%%The code can be made more compa*
+>%%LINK%%[[#^ny41sulf79f|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ny41sulf79f
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-21T00:18:40.003Z","updated":"2023-04-21T00:18:40.003Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":215705,"end":215720},{"type":"TextQuoteSelector","exact":"Eliminate jumps","prefix":"{    y = cos(x); } z = y + 1.;  ","suffix":" Jumps can be avoided by copying"}]}]}
+>```
+>%%
+>*%%PREFIX%%{    y = cos(x); } z = y + 1.;%%HIGHLIGHT%% ==Eliminate jumps== %%POSTFIX%%Jumps can be avoided by copying*
+>%%LINK%%[[#^ywdeqwwkhfl|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ywdeqwwkhfl
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-21T00:19:49.939Z","updated":"2023-04-21T00:19:49.939Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":216892,"end":216907},{"type":"TextQuoteSelector","exact":"Loop unrolling ","prefix":"* 3;       return a - 1;    } } ","suffix":"Compilers will unroll loops if a"}]}]}
+>```
+>%%
+>*%%PREFIX%%* 3;       return a - 1;    } }%%HIGHLIGHT%% ==Loop unrolling== %%POSTFIX%%Compilers will unroll loops if a*
+>%%LINK%%[[#^4b4tmgbc6d5|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^4b4tmgbc6d5
