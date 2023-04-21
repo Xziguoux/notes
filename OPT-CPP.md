@@ -3529,3 +3529,73 @@ annotation-target: file:///home/cambricon/data/note/optimizing_cp.pdf
 >%%TAGS%%
 >
 ^4b4tmgbc6d5
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-21T01:53:35.273Z","updated":"2023-04-21T01:53:35.273Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":217553,"end":217579},{"type":"TextQuoteSelector","exact":"Loop invariant code motion","prefix":", which are critical resources. ","suffix":" A calculation may be moved out "}]}]}
+>```
+>%%
+>*%%PREFIX%%, which are critical resources.%%HIGHLIGHT%% ==Loop invariant code motion== %%POSTFIX%%A calculation may be moved out*
+>%%LINK%%[[#^wa2efezjunf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^wa2efezjunf
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-21T01:54:45.033Z","updated":"2023-04-21T01:54:45.033Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":217899,"end":217912},{"type":"TextQuoteSelector","exact":"Vectorization","prefix":"< 100; i++) {    a[i] = temp; } ","suffix":" The compiler can use vector reg"}]}]}
+>```
+>%%
+>*%%PREFIX%%< 100; i++) {    a[i] = temp; }%%HIGHLIGHT%% ==Vectorization== %%POSTFIX%%The compiler can use vector reg*
+>%%LINK%%[[#^5es5hor3gvh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^5es5hor3gvh
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-21T01:57:21.047Z","updated":"2023-04-21T01:57:21.047Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":218175,"end":218418},{"type":"TextQuoteSelector","exact":"The SSE2 instruction set provides 128-bit vector registers. A 128-bit register can hold four 32-bit float values. The compiler can roll out the loop in example 8.14 by four and do four additions in one operation, using 128-bit vector registers","prefix":"{    a[i] = b[i] + c[i]; }  73  ","suffix":".   If the AVX2 instruction set "}]}]}
+>```
+>%%
+>*%%PREFIX%%{    a[i] = b[i] + c[i]; }  73%%HIGHLIGHT%% ==The SSE2 instruction set provides 128-bit vector registers. A 128-bit register can hold four 32-bit float values. The compiler can roll out the loop in example 8.14 by four and do four additions in one operation, using 128-bit vector registers== %%POSTFIX%%.   If the AVX2 instruction set*
+>%%LINK%%[[#^wfjzoek7njb|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^wfjzoek7njb
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-21T01:58:23.811Z","updated":"2023-04-21T01:58:23.811Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":218422,"end":218547},{"type":"TextQuoteSelector","exact":"If the AVX2 instruction set is available, then it is possible to do eight additions at a time, using 256-bit vector registers","prefix":"ing 128-bit vector registers.   ","suffix":". If the AVX512 instruction set "}]}]}
+>```
+>%%
+>*%%PREFIX%%ing 128-bit vector registers.%%HIGHLIGHT%% ==If the AVX2 instruction set is available, then it is possible to do eight additions at a time, using 256-bit vector registers== %%POSTFIX%%. If the AVX512 instruction set*
+>%%LINK%%[[#^ttf0ns6duys|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ttf0ns6duys
+
+
+>%%
+>```annotation-json
+>{"created":"2023-04-21T02:00:47.373Z","updated":"2023-04-21T02:00:47.373Z","document":{"title":"Optimizing software in C++","link":[{"href":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7"}],"documentFingerprint":"45252bb354535a499741f01ba5fe33f7"},"uri":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","target":[{"source":"urn:x-pdf:45252bb354535a499741f01ba5fe33f7","selector":[{"type":"TextPositionSelector","start":218549,"end":218678},{"type":"TextQuoteSelector","exact":"If the AVX512 instruction set is available, then it is possible to do sixteen additions at a time, using 512-bit vector registers","prefix":"using 256-bit vector registers. ","suffix":".  It is necessary to specify to"}]}]}
+>```
+>%%
+>*%%PREFIX%%using 256-bit vector registers.%%HIGHLIGHT%% ==If the AVX512 instruction set is available, then it is possible to do sixteen additions at a time, using 512-bit vector registers== %%POSTFIX%%.  It is necessary to specify to*
+>%%LINK%%[[#^hwgea2ht9fd|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^hwgea2ht9fd
