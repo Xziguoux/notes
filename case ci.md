@@ -1,6 +1,8 @@
 ```shell
+block_job/
 co_split_asymm.mlir
 
+is_finite/
 is_finite_0D.mlir
 
 n_dyanmic/pad
@@ -10,6 +12,7 @@ addpad_i8_1d6.mlir
 addpad_i8_1d8.mlir
 addpad_qint16_1d6.mlir
 addpad_qint16_1d8.mlir
+
 nhw_dynamic/adaptive
 adaptive_avgpool_1.mlir
 adaptive_avgpool_1_f16.mlir
@@ -89,4 +92,8 @@ nhw_dynamic/wflod
 dwconv_pwconv_dwconv_scale_relu_int8fp32_small_c.mlir
 pwconv_scale_dwconv_scale_relu_int8fp16_4_small_c.mlir
 
+samepad_nhwc_dynamic/conv/
+conv_5_asym.mlir
+conv_5_asym.mlir
+conv_asymmetric.mlir
 ```
