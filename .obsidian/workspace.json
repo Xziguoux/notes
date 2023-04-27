@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7817c95ab62f2e06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "case ci.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "op builder.md",
+                "file": "case ci.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "op builder.md",
+                "file": "case ci.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "op builder.md"
+                "file": "case ci.md"
               }
             }
           },
@@ -183,10 +195,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "35ce7485d4f7cb7d",
+  "active": "7817c95ab62f2e06",
   "lastOpenFiles": [
-    "mlir preview.md",
     "op builder.md",
+    "case ci.md",
+    "mlir preview.md",
     "活动图.md",
     "OPT-CPP.md",
     "oom  处理.md",
